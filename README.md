@@ -42,6 +42,6 @@
 
     `clausenode.h`：变量操作
     `params.h`：部分运行时参数
-    `XXXfunctions.h`：算法加解密及APFA代数构造
+    `XXXfunctions.h`：算法加密及APFA代数构造
     `utils.h`：部分算法参数，预设
     `testXXX.cpp`：主程序
