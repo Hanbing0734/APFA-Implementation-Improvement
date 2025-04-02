@@ -1,0 +1,42 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3 = 0  2  3  23  4  
+y2 = 1  2  3  12  4  
+y1 = 0  3  01  12  13  23  123  
+y0 = 1  2  3  01  02  03  13  012  123  
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3' = 0  2  3  23  4  
+y2' = 1  2  3  12  4  
+y1' = 0  3  01  12  13  23  123  
+y0' = 0  12  23  013  023  0123  4  
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	1
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	7
+MinCiphers:	8
+MaxCiphers:	40
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	8
+	Total vars:	25112
+	Total clauses:	69848
+	Test == masterkey, spend 929593 clocks.
+	Have more than 1024 results, spent 2910819241 clocks.
+num_cipher:	9
+	Total vars:	28115
+	Total clauses:	78451
+	Test == masterkey, spend 1101330 clocks.
+	Have more than 1024 results, spent 4779097034 clocks.
+num_cipher:	10
+	Total vars:	31118
+	Total clauses:	87054
+	Test == masterkey, spend 1140497 clocks.
+	Have more than 1024 results, spent 10334160913 clocks.
+num_cipher:	11
+	Total vars:	34121
+	Total clauses:	95657
+	Test == masterkey, spend 1866945 clocks.
+
+    end

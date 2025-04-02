@@ -1,0 +1,68 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3 = 0  2  3  23  4  
+y2 = 1  2  3  12  4  
+y1 = 0  3  01  12  13  23  123  
+y0 = 1  2  3  01  02  03  13  012  123  
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3' = 0  2  3  23  4  
+y2' = 1  2  3  12  4  
+y1' = 0  3  01  12  13  23  123  
+y0' = 0  12  23  013  023  0123  4  
+SKINNY_MODE:	64
+TWEAKEY_MODE:	1
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	7
+MinCiphers:	12
+MaxCiphers:	30
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	12
+	Total vars:	37124
+	Total clauses:	104260
+	Test == masterkey, spend 2055329 clocks.
+	Have 59 results, spent 8147353778 clocks.
+num_cipher:	13
+	Total vars:	40127
+	Total clauses:	112863
+	Test == masterkey, spend 1278992 clocks.
+	Have 3 results, spent 331427915 clocks.
+num_cipher:	14
+	Total vars:	43130
+	Total clauses:	121466
+	Test == masterkey, spend 2072249 clocks.
+	Have 3 results, spent 207175217 clocks.
+num_cipher:	15
+	Total vars:	46133
+	Total clauses:	130069
+	Test == masterkey, spend 3046719 clocks.
+	Have 1 results, spent 176855180 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	7
+startRound:	25
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/skinny_64_1 1 7 12 30"
+	User time (seconds): 8849.53
+	System time (seconds): 22.32
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:27:55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 174128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 844707
+	Voluntary context switches: 1
+	Involuntary context switches: 29846
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

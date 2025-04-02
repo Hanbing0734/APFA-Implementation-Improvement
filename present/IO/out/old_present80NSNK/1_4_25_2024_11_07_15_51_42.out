@@ -1,0 +1,58 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3+1+5')(1'+0+7'+5)(3'+1+0+7')(1+0'+7'+5)(1'+7+5'+4')(0+6'+5+4')(3'+7'+6+5')(2+7+5+4)(2'+7'+5'+4')(2+1'+0'+7)(3'+2'+0'+5)(0+7+6+4)(3'+1'+6'+4)(3+1'+0'+4)(2'+6'+5'+4)(1+7+6+5+4')(3+1'+6+5)(3'+2+7+6')(3+2'+7+6')(2+0+7'+6)(2+0'+7'+6'+4')(2+6+5+4')(1+0'+6+5')(2'+0+5'+4')(3+7'+6'+5')(2'+7'+5+4)
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3'+1+5+4')(3+1+0+4)(3+2+1'+5)(1'+0+7'+5)(3+1+0'+7')(3'+2'+0+5')(2'+7'+5'+4')(2'+6'+5'+4)(2+6+5'+4)(2'+1'+5+4)(3'+2+1'+7)(3'+1+0'+6)(3'+1'+0'+4')(3+2'+7+4')(0'+7+6'+4)(3+7+6+5')(3'+2+1+0+6')(2+0+7'+6)(0+7+6'+4')(1'+7'+6'+4)(2+0'+6'+5'+4')(2'+0'+7'+6)(3+6'+5'+4')(7'+6'+5+4)(0+6+5+4)(2+7+6+5)(2'+0+7'+6')
+PRESENT_MODE:	80
+SAT_MODE:	2
+	SBOX_MODE:	102
+	KSR_HAVEERROR:	1
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	4
+MinCiphers:	25
+MaxCiphers:	80
+Threads:	1
+Master_key:	11110010010111011001000111000100100100011000001010111111100001000111100100001100
+---------------------------------------------------------------------------------------------------
+num_cipher:	25
+	Total vars:	18008
+	Total clauses:	47472
+	Test == masterkey, spend 125573 clocks.
+	Have 2 results, spent 11578849 clocks.
+num_cipher:	26
+	Total vars:	18712
+	Total clauses:	49328
+	Test == masterkey, spend 132546 clocks.
+	Have 2 results, spent 4214889 clocks.
+num_cipher:	27
+	Total vars:	19416
+	Total clauses:	51184
+	Test == masterkey, spend 139058 clocks.
+	Have 1 results, spent 3269670 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	4
+startRound:	28
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present80NSNK 1 4 25 80"
+	User time (seconds): 19.41
+	System time (seconds): 0.35
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23904
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8015
+	Voluntary context switches: 1
+	Involuntary context switches: 89
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

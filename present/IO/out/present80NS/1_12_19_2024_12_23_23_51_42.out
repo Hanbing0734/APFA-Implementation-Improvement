@@ -1,0 +1,60 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3+1+5')(1'+0+7'+5)(3'+1+0+7')(1+0'+7'+5)(1'+7+5'+4')(0+6'+5+4')(3'+7'+6+5')(2+7+5+4)(2'+7'+5'+4')(2+1'+0'+7)(3'+2'+0'+5)(0+7+6+4)(3'+1'+6'+4)(3+1'+0'+4)(2'+6'+5'+4)(1+7+6+5+4')(3+1'+6+5)(3'+2+7+6')(3+2'+7+6')(2+0+7'+6)(2+0'+7'+6'+4')(2+6+5+4')(1+0'+6+5')(2'+0+5'+4')(3+7'+6'+5')(2'+7'+5+4)
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3'+1+5+4')(3+1+0+4)(3+2+1'+5)(1'+0+7'+5)(3+1+0'+7')(3'+2'+0+5')(2'+7'+5'+4')(2'+6'+5'+4)(2+6+5'+4)(2'+1'+5+4)(3'+2+1'+7)(3'+1+0'+6)(3'+1'+0'+4')(3+2'+7+4')(0'+7+6'+4)(3+7+6+5')(3'+2+1+0+6')(2+0+7'+6)(0+7+6'+4')(1'+7'+6'+4)(2+0'+6'+5'+4')(2'+0'+7'+6)(3+6'+5'+4')(7'+6'+5+4)(0+6+5+4)(2+7+6+5)(2'+0+7'+6')
+Max time :	3600
+PRESENT_MODE:	80
+SAT_MODE:	1
+	SBOX_MODE:	102
+	KSR_HAVEERROR:	0
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	12
+MinCiphers:	19
+MaxCiphers:	25
+Threads:	1
+Master_key:	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+---------------------------------------------------------------------------------------------------
+num_cipher:	19
+	Total vars:	42844
+	Total clauses:	123702
+	Test == masterkey, spend 2709549 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	20
+	Total vars:	45084
+	Total clauses:	130166
+	Test == masterkey, spend 1973506 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	21
+	Total vars:	47324
+	Total clauses:	136630
+	Test == masterkey, spend 2364342 clocks.
+解得主密钥:  1	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 1 results, spent 2992837043 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	12
+startRound:	20
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present80NS 1 12 19 25"
+	User time (seconds): 10198.18
+	System time (seconds): 7.97
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:50:07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 155484
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 186528
+	Voluntary context switches: 1
+	Involuntary context switches: 17025
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

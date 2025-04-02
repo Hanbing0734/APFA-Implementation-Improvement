@@ -1,0 +1,129 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3 = 0  2  3  23  4  
+y2 = 1  2  3  12  4  
+y1 = 0  3  01  12  13  23  123  
+y0 = 1  2  3  01  02  03  13  012  123  
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3' = 0  2  3  23  4  
+y2' = 1  2  3  12  4  
+y1' = 0  3  01  12  13  23  123  
+y0' = 0  12  23  013  023  0123  4  
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	1
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	4
+MinCiphers:	8
+MaxCiphers:	40
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	8
+	Total vars:	15056
+	Total clauses:	40592
+	Test == masterkey, spend 273072 clocks.
+	Have more than 1024 results, spent 46740468 clocks.
+num_cipher:	9
+	Total vars:	16802
+	Total clauses:	45538
+	Test == masterkey, spend 286813 clocks.
+	Have more than 1024 results, spent 56058896 clocks.
+num_cipher:	10
+	Total vars:	18548
+	Total clauses:	50484
+	Test == masterkey, spend 382756 clocks.
+	Have more than 1024 results, spent 60110369 clocks.
+num_cipher:	11
+	Total vars:	20294
+	Total clauses:	55430
+	Test == masterkey, spend 379595 clocks.
+	Have more than 1024 results, spent 70201873 clocks.
+num_cipher:	12
+	Total vars:	22040
+	Total clauses:	60376
+	Test == masterkey, spend 748857 clocks.
+	Have more than 1024 results, spent 77029377 clocks.
+num_cipher:	13
+	Total vars:	23786
+	Total clauses:	65322
+	Test == masterkey, spend 1014573 clocks.
+	Have more than 1024 results, spent 88900050 clocks.
+num_cipher:	14
+	Total vars:	25532
+	Total clauses:	70268
+	Test == masterkey, spend 950753 clocks.
+	Have more than 1024 results, spent 92446151 clocks.
+num_cipher:	15
+	Total vars:	27278
+	Total clauses:	75214
+	Test == masterkey, spend 909744 clocks.
+	Have more than 1024 results, spent 100514360 clocks.
+num_cipher:	16
+	Total vars:	29024
+	Total clauses:	80160
+	Test == masterkey, spend 934288 clocks.
+	Have more than 1024 results, spent 88325447 clocks.
+num_cipher:	17
+	Total vars:	30770
+	Total clauses:	85106
+	Test == masterkey, spend 1186502 clocks.
+	Have more than 1024 results, spent 93090882 clocks.
+num_cipher:	18
+	Total vars:	32516
+	Total clauses:	90052
+	Test == masterkey, spend 1021313 clocks.
+	Have more than 1024 results, spent 71648284 clocks.
+num_cipher:	19
+	Total vars:	34262
+	Total clauses:	94998
+	Test == masterkey, spend 1072701 clocks.
+	Have 154 results, spent 42501363 clocks.
+num_cipher:	20
+	Total vars:	36008
+	Total clauses:	99944
+	Test == masterkey, spend 1008212 clocks.
+	Have 73 results, spent 33802248 clocks.
+num_cipher:	21
+	Total vars:	37754
+	Total clauses:	104890
+	Test == masterkey, spend 1116799 clocks.
+	Have 10 results, spent 21922259 clocks.
+num_cipher:	22
+	Total vars:	39500
+	Total clauses:	109836
+	Test == masterkey, spend 1328879 clocks.
+	Have 2 results, spent 18343681 clocks.
+num_cipher:	23
+	Total vars:	41246
+	Total clauses:	114782
+	Test == masterkey, spend 1447114 clocks.
+	Have 1 results, spent 17552405 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	4
+startRound:	28
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/skinny_64_1 1 4 8 40"
+	User time (seconds): 993.91
+	System time (seconds): 1.30
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:35.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 74884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 63092
+	Voluntary context switches: 0
+	Involuntary context switches: 2616
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 136
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

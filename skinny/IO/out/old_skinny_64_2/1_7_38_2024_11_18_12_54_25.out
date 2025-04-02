@@ -1,0 +1,127 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3 = 0  2  3  23  4  
+y2 = 1  2  3  12  4  
+y1 = 0  3  01  12  13  23  123  
+y0 = 1  2  3  01  02  03  13  012  123  
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3' = 0  2  3  23  4  
+y2' = 1  2  3  12  4  
+y1' = 0  3  01  12  13  23  123  
+y0' = 0  12  23  013  023  0123  4  
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	2
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	7
+MinCiphers:	38
+MaxCiphers:	100
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	38
+	Total vars:	115712
+	Total clauses:	328384
+	Test == masterkey, spend 20062849 clocks.
+解得主密钥:  5	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 86 results, spent 2750861341 clocks.
+num_cipher:	39
+	Total vars:	118716
+	Total clauses:	336988
+	Test == masterkey, spend 20828323 clocks.
+解得主密钥:  65	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 70 results, spent 2382118879 clocks.
+num_cipher:	40
+	Total vars:	121720
+	Total clauses:	345592
+	Test == masterkey, spend 23314845 clocks.
+解得主密钥:  18	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 53 results, spent 2320453554 clocks.
+num_cipher:	41
+	Total vars:	124724
+	Total clauses:	354196
+	Test == masterkey, spend 22669267 clocks.
+解得主密钥:  11	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 15 results, spent 1389270591 clocks.
+num_cipher:	42
+	Total vars:	127728
+	Total clauses:	362800
+	Test == masterkey, spend 24062188 clocks.
+解得主密钥:  2	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 12 results, spent 1364453146 clocks.
+num_cipher:	43
+	Total vars:	130732
+	Total clauses:	371404
+	Test == masterkey, spend 24041659 clocks.
+解得主密钥:  5	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 7 results, spent 1451251271 clocks.
+num_cipher:	44
+	Total vars:	133736
+	Total clauses:	380008
+	Test == masterkey, spend 27292792 clocks.
+解得主密钥:  2	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 6 results, spent 1092309358 clocks.
+num_cipher:	45
+	Total vars:	136740
+	Total clauses:	388612
+	Test == masterkey, spend 26798105 clocks.
+解得主密钥:  3	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 6 results, spent 1795480619 clocks.
+num_cipher:	46
+	Total vars:	139744
+	Total clauses:	397216
+	Test == masterkey, spend 27608432 clocks.
+解得主密钥:  4	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 6 results, spent 1293393890 clocks.
+num_cipher:	47
+	Total vars:	142748
+	Total clauses:	405820
+	Test == masterkey, spend 30892167 clocks.
+解得主密钥:  1	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 5 results, spent 1839953795 clocks.
+num_cipher:	48
+	Total vars:	145752
+	Total clauses:	414424
+	Test == masterkey, spend 31610401 clocks.
+解得主密钥:  1	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 2 results, spent 1473986056 clocks.
+num_cipher:	49
+	Total vars:	148756
+	Total clauses:	423028
+	Test == masterkey, spend 35789043 clocks.
+解得主密钥:  1	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 2 results, spent 1350157894 clocks.
+num_cipher:	50
+	Total vars:	151760
+	Total clauses:	431632
+	Test == masterkey, spend 34712292 clocks.
+解得主密钥:  1	10100111101101101000110110001110111111111000101101111101110001100100101111111110011110110100101001111111100010101001010100010111
+	Have 1 results, spent 1315593413 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	7
+startRound:	29
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/skinny_64_2 1 7 38 100"
+	User time (seconds): 22127.27
+	System time (seconds): 49.78
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:11:08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 270960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1870224
+	Voluntary context switches: 1
+	Involuntary context switches: 59049
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 264
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

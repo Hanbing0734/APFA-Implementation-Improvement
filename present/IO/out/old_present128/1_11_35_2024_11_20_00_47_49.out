@@ -1,0 +1,68 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+y3 = 0  1  3  12  012  013  023  4  
+y2 = 2  3  01  03  13  013  023  4  
+y1 = 1  3  13  23  012  013  023  
+y0 = 0  2  3  12  
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+y3' = 0  1  3  12  012  013  023  4  
+y2' = 2  3  01  03  13  013  023  4  
+y1' = 1  3  13  23  012  013  023  
+y0' = 1  01  02  03  13  23  012  013  023  123  0123  4  
+Max time :	3600
+PRESENT_MODE:	128
+SAT_MODE:	0
+	SBOX_MODE:	101
+	KSR_HAVEERROR:	0
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	11
+MinCiphers:	35
+MaxCiphers:	50
+Threads:	1
+Master_key:	00100101101010011100111100111000010001001100101101101101111100011000010100100001000001101100101101011000110100100100001010100110
+---------------------------------------------------------------------------------------------------
+num_cipher:	35
+	Total vars:	162542
+	Total clauses:	670258
+	Test == masterkey, spend 38905837 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	36
+	Total vars:	167150
+	Total clauses:	689266
+	Test == masterkey, spend 40568972 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	37
+	Total vars:	171758
+	Total clauses:	708274
+	Test == masterkey, spend 45551677 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	38
+	Total vars:	176366
+	Total clauses:	727282
+	Test == masterkey, spend 46355929 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	39
+	Total vars:	180974
+	Total clauses:	746290
+	Test == masterkey, spend 42837818 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	40
+	Total vars:	185582
+	Total clauses:	765298
+	Test == masterkey, spend 54295023 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	41
+	Total vars:	190190
+	Total clauses:	784306
+	Test == masterkey, spend 44040686 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	42
+	Total vars:	194798
+	Total clauses:	803314
+	Test == masterkey, spend 53946894 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	43
+	Total vars:	199406
+	Total clauses:	822322
+	Test == masterkey, spend 55463086 clocks.
+
+    end

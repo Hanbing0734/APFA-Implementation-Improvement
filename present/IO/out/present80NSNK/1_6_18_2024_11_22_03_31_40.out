@@ -1,0 +1,115 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3+1+5')(1'+0+7'+5)(3'+1+0+7')(1+0'+7'+5)(1'+7+5'+4')(0+6'+5+4')(3'+7'+6+5')(2+7+5+4)(2'+7'+5'+4')(2+1'+0'+7)(3'+2'+0'+5)(0+7+6+4)(3'+1'+6'+4)(3+1'+0'+4)(2'+6'+5'+4)(1+7+6+5+4')(3+1'+6+5)(3'+2+7+6')(3+2'+7+6')(2+0+7'+6)(2+0'+7'+6'+4')(2+6+5+4')(1+0'+6+5')(2'+0+5'+4')(3+7'+6'+5')(2'+7'+5+4)
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3'+1+5+4')(3+1+0+4)(3+2+1'+5)(1'+0+7'+5)(3+1+0'+7')(3'+2'+0+5')(2'+7'+5'+4')(2'+6'+5'+4)(2+6+5'+4)(2'+1'+5+4)(3'+2+1'+7)(3'+1+0'+6)(3'+1'+0'+4')(3+2'+7+4')(0'+7+6'+4)(3+7+6+5')(3'+2+1+0+6')(2+0+7'+6)(0+7+6'+4')(1'+7'+6'+4)(2+0'+6'+5'+4')(2'+0'+7'+6)(3+6'+5'+4')(7'+6'+5+4)(0+6+5+4)(2+7+6+5)(2'+0+7'+6')
+Max time :	3600
+PRESENT_MODE:	80
+SAT_MODE:	2
+	SBOX_MODE:	102
+	KSR_HAVEERROR:	1
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	6
+MinCiphers:	18
+MaxCiphers:	30
+Threads:	1
+Master_key:	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+---------------------------------------------------------------------------------------------------
+num_cipher:	18
+	Total vars:	19992
+	Total clauses:	55216
+	Test == masterkey, spend 300417 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	19
+	Total vars:	21080
+	Total clauses:	58224
+	Test == masterkey, spend 332272 clocks.
+	Not solved within 3600 seconds, Have 2 results.
+num_cipher:	20
+	Total vars:	22168
+	Total clauses:	61232
+	Test == masterkey, spend 332687 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	21
+	Total vars:	23256
+	Total clauses:	64240
+	Test == masterkey, spend 509491 clocks.
+解得主密钥:  3	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 3 results, spent 1491470975 clocks.
+num_cipher:	22
+	Total vars:	24344
+	Total clauses:	67248
+	Test == masterkey, spend 464241 clocks.
+解得主密钥:  3	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 3 results, spent 399939998 clocks.
+num_cipher:	23
+	Total vars:	25432
+	Total clauses:	70256
+	Test == masterkey, spend 487714 clocks.
+解得主密钥:  3	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 3 results, spent 119131346 clocks.
+num_cipher:	24
+	Total vars:	26520
+	Total clauses:	73264
+	Test == masterkey, spend 488900 clocks.
+解得主密钥:  3	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 3 results, spent 46408873 clocks.
+num_cipher:	25
+	Total vars:	27608
+	Total clauses:	76272
+	Test == masterkey, spend 794895 clocks.
+解得主密钥:  2	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 3 results, spent 32810263 clocks.
+num_cipher:	26
+	Total vars:	28696
+	Total clauses:	79280
+	Test == masterkey, spend 736552 clocks.
+解得主密钥:  2	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 3 results, spent 14740659 clocks.
+num_cipher:	27
+	Total vars:	29784
+	Total clauses:	82288
+	Test == masterkey, spend 782476 clocks.
+解得主密钥:  1	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 3 results, spent 9744128 clocks.
+num_cipher:	28
+	Total vars:	30872
+	Total clauses:	85296
+	Test == masterkey, spend 886275 clocks.
+解得主密钥:  1	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 3 results, spent 5818241 clocks.
+num_cipher:	29
+	Total vars:	31960
+	Total clauses:	88304
+	Test == masterkey, spend 974891 clocks.
+解得主密钥:  2	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 3 results, spent 3666462 clocks.
+num_cipher:	30
+	Total vars:	33048
+	Total clauses:	91312
+	Test == masterkey, spend 909451 clocks.
+解得主密钥:  3	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 3 results, spent 3108348 clocks.
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present80NSNK 1 6 18 30"
+	User time (seconds): 12934.04
+	System time (seconds): 15.86
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:35:51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 112424
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 108197
+	Voluntary context switches: 1
+	Involuntary context switches: 24768
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

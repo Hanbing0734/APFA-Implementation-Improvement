@@ -1,0 +1,103 @@
+sbox:	1100 1010 1101 0011 1110 1011 1111 0111 1000 1001 0001 0101 0000 0010 0100 0110 
+8 = (3'+2'+4')(3+0+6)(3+7+4)(3'+0+5')(3+0'+5)(1'+6+4)(1+6'+4')(2+6'+5')(3'+2+0'+4)(1'+0'+7')(2'+0'+7'+4)(2+1+7)(2'+7'+5)(3'+2+0+6')(0'+5+4)(3+0+7)(1+7+6')(1'+7'+4)(3'+1'+0'+6)(0+7'+6+4')(2'+7+6+4')(2+7'+5'+4')
+e_sbox:	0100 1010 1101 0011 1110 1011 1111 0111 1000 1001 0001 0101 0000 0010 0100 0110 
+8 = (1+0'+6')(1+0+4')(3'+1'+7')(2'+5+4')(2+6'+5')(3+0'+5)(3+1'+4)(2'+1'+6)(3+0+6)(0+7+5')(0'+5+4)(3+1+7+5')(3'+2+7+4)(3'+5'+4')(3'+7'+5')(2'+7'+6+4)(0+7+6'+4')(7'+6'+5+4)(3'+0'+7+6+4')(2+7'+5'+4')(2'+1+6'+5)(0'+7'+6')
+Max time :	3600
+SAT_MODE:	2
+	SBOX_MODE:	102
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	6
+MinCiphers:	52
+MaxCiphers:	60
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	52
+	Total vars:	68256
+	Total clauses:	147104
+	Test == masterkey, spend 1400897 clocks.
+解得 mater_key 与 tweakey:	14
+mater_key:	01000011111001111011100111010110000010111010101000101101001010011010010011000111001011010101110011010111111010110000011011000100
+tweakey:	1011000001011101010100010110100101001101001001100011100101101010
+	Have 16 results, spent 2655870535 clocks.
+num_cipher:	53
+	Total vars:	69560
+	Total clauses:	149928
+	Test == masterkey, spend 1473020 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	54
+	Total vars:	70864
+	Total clauses:	152752
+	Test == masterkey, spend 1427321 clocks.
+解得 mater_key 与 tweakey:	12
+mater_key:	01000011111001111011100111010110000010111010101000101101001010011010010011000111001011010101110011010111111010110000011011000100
+tweakey:	1011000001011101010100010110100101001101001001100011100101101010
+	Have 16 results, spent 2492782755 clocks.
+num_cipher:	55
+	Total vars:	72168
+	Total clauses:	155576
+	Test == masterkey, spend 1620801 clocks.
+	Not solved within 3600 seconds, Have 3 results.
+num_cipher:	56
+	Total vars:	73472
+	Total clauses:	158400
+	Test == masterkey, spend 2032093 clocks.
+解得 mater_key 与 tweakey:	16
+mater_key:	01000011111001111011100111010110000010111010101000101101001010011010010011000111001011010101110011010111111010110000011011000100
+tweakey:	1011000001011101010100010110100101001101001001100011100101101010
+	Have 16 results, spent 1899096670 clocks.
+num_cipher:	57
+	Total vars:	74776
+	Total clauses:	161224
+	Test == masterkey, spend 1566699 clocks.
+解得 mater_key 与 tweakey:	12
+mater_key:	01000011111001111011100111010110000010111010101000101101001010011010010011000111001011010101110011010111111010110000011011000100
+tweakey:	1011000001011101010100010110100101001101001001100011100101101010
+	Have 16 results, spent 1428817918 clocks.
+num_cipher:	58
+	Total vars:	76080
+	Total clauses:	164048
+	Test == masterkey, spend 1765848 clocks.
+解得 mater_key 与 tweakey:	16
+mater_key:	01000011111001111011100111010110000010111010101000101101001010011010010011000111001011010101110011010111111010110000011011000100
+tweakey:	1011000001011101010100010110100101001101001001100011100101101010
+	Have 16 results, spent 487948313 clocks.
+num_cipher:	59
+	Total vars:	77384
+	Total clauses:	166872
+	Test == masterkey, spend 1970516 clocks.
+解得 mater_key 与 tweakey:	10
+mater_key:	01000011111001111011100111010110000010111010101000101101001010011010010011000111001011010101110011010111111010110000011011000100
+tweakey:	1011000001011101010100010110100101001101001001100011100101101010
+	Have 16 results, spent 552608162 clocks.
+num_cipher:	60
+	Total vars:	78688
+	Total clauses:	169696
+	Test == masterkey, spend 2145330 clocks.
+解得 mater_key 与 tweakey:	7
+mater_key:	01000011111001111011100111010110000010111010101000101101001010011010010011000111001011010101110011010111111010110000011011000100
+tweakey:	1011000001011101010100010110100101001101001001100011100101101010
+	Have 16 results, spent 649841614 clocks.
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/craft_NS 1 6 52 60"
+	User time (seconds): 17365.64
+	System time (seconds): 39.14
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:50:07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 241080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2124530
+	Voluntary context switches: 0
+	Involuntary context switches: 46474
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 80
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

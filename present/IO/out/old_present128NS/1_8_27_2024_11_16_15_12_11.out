@@ -1,0 +1,91 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3+1+5')(1'+0+7'+5)(3'+1+0+7')(1+0'+7'+5)(1'+7+5'+4')(0+6'+5+4')(3'+7'+6+5')(2+7+5+4)(2'+7'+5'+4')(2+1'+0'+7)(3'+2'+0'+5)(0+7+6+4)(3'+1'+6'+4)(3+1'+0'+4)(2'+6'+5'+4)(1+7+6+5+4')(3+1'+6+5)(3'+2+7+6')(3+2'+7+6')(2+0+7'+6)(2+0'+7'+6'+4')(2+6+5+4')(1+0'+6+5')(2'+0+5'+4')(3+7'+6'+5')(2'+7'+5+4)
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3'+1+5+4')(3+1+0+4)(3+2+1'+5)(1'+0+7'+5)(3+1+0'+7')(3'+2'+0+5')(2'+7'+5'+4')(2'+6'+5'+4)(2+6+5'+4)(2'+1'+5+4)(3'+2+1'+7)(3'+1+0'+6)(3'+1'+0'+4')(3+2'+7+4')(0'+7+6'+4)(3+7+6+5')(3'+2+1+0+6')(2+0+7'+6)(0+7+6'+4')(1'+7'+6'+4)(2+0'+6'+5'+4')(2'+0'+7'+6)(3+6'+5'+4')(7'+6'+5+4)(0+6+5+4)(2+7+6+5)(2'+0+7'+6')
+Max time :	3600
+PRESENT_MODE:	128
+SAT_MODE:	1
+	SBOX_MODE:	102
+	KSR_HAVEERROR:	0
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	8
+MinCiphers:	27
+MaxCiphers:	50
+Threads:	1
+Master_key:	11111001101000000110001000001100010010010100101011000111010111000000100000111001110010111111110011110011111111100011110001110000
+---------------------------------------------------------------------------------------------------
+num_cipher:	27
+	Total vars:	40200
+	Total clauses:	114012
+	Test == masterkey, spend 2832170 clocks.
+	Not solved within3600 seconds, Have 0 results.
+num_cipher:	28
+	Total vars:	41672
+	Total clauses:	118172
+	Test == masterkey, spend 3180508 clocks.
+	Not solved within3600 seconds, Have 0 results.
+num_cipher:	29
+	Total vars:	43144
+	Total clauses:	122332
+	Test == masterkey, spend 4040396 clocks.
+	Not solved within3600 seconds, Have 0 results.
+num_cipher:	30
+	Total vars:	44616
+	Total clauses:	126492
+	Test == masterkey, spend 3606550 clocks.
+	Not solved within3600 seconds, Have 0 results.
+num_cipher:	31
+	Total vars:	46088
+	Total clauses:	130652
+	Test == masterkey, spend 4334604 clocks.
+	Not solved within3600 seconds, Have 0 results.
+num_cipher:	32
+	Total vars:	47560
+	Total clauses:	134812
+	Test == masterkey, spend 4367965 clocks.
+解得主密钥:  1	11111001101000000110001000001100010010010100101011000111010111000000100000111001110010111111110011110011111111100011110001110000
+	Not solved within3600 seconds, Have 1 results.
+num_cipher:	33
+	Total vars:	49032
+	Total clauses:	138972
+	Test == masterkey, spend 4627719 clocks.
+	Not solved within3600 seconds, Have 0 results.
+num_cipher:	34
+	Total vars:	50504
+	Total clauses:	143132
+	Test == masterkey, spend 4863497 clocks.
+	Not solved within3600 seconds, Have 0 results.
+num_cipher:	35
+	Total vars:	51976
+	Total clauses:	147292
+	Test == masterkey, spend 5747104 clocks.
+解得主密钥:  1	11111001101000000110001000001100010010010100101011000111010111000000100000111001110010111111110011110011111111100011110001110000
+	Have 1 results, spent 1607820464 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	8
+startRound:	24
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present128NS 1 8 27 50"
+	User time (seconds): 30446.34
+	System time (seconds): 31.85
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:28:01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 196436
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 670129
+	Voluntary context switches: 1
+	Involuntary context switches: 36940
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 104
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

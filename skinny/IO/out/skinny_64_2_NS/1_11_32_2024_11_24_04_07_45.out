@@ -1,0 +1,114 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+8 = (2'+0+7')(1+7'+4')(0'+7+4')(3'+1'+6)(1'+6'+4)(3+0+7+6')(2'+7'+5)(2+1+7+5)(2+1'+5')(2'+0'+7)(2+6+5'+4)(0+6+5+4)(3+7'+6'+5')(3'+2+1+6')(2'+1+7+5')(3+0'+7'+5)(1'+7+6+4')(3'+2'+5+4')(0+7'+6'+4')(3+2+7+4')(1'+7'+4)(3'+2'+6)
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+8 = (3'+2'+6)(2'+1'+5)(1+0'+4')(2+0+4)(2'+0+7')(3'+2+6'+5')(2+1+7+5)(3'+0'+7)(3'+1'+6)(3+7+6'+4')(1'+6'+4)(2'+1+7+5')(3+7'+6'+5')(3+2+6+5')(3+0'+7'+5)(1'+7+6+4')(1'+0'+5'+4)(3'+1+5+4')(7'+6'+5+4)(3+1+5+4)(1+7'+6+4')(1'+0+7'+6')(2+6+5'+4)
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	2
+SAT_MODE:	2
+	SBOX_MODE:	102
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	11
+MinCiphers:	32
+MaxCiphers:	80
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	32
+	Total vars:	78168
+	Total clauses:	190680
+	Test == masterkey, spend 2949281 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	33
+	Total vars:	80562
+	Total clauses:	196594
+	Test == masterkey, spend 4513757 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	34
+	Total vars:	82956
+	Total clauses:	202508
+	Test == masterkey, spend 3391073 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	35
+	Total vars:	85350
+	Total clauses:	208422
+	Test == masterkey, spend 3591096 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	36
+	Total vars:	87744
+	Total clauses:	214336
+	Test == masterkey, spend 3800617 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	37
+	Total vars:	90138
+	Total clauses:	220250
+	Test == masterkey, spend 4002722 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	38
+	Total vars:	92532
+	Total clauses:	226164
+	Test == masterkey, spend 3654491 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	39
+	Total vars:	94926
+	Total clauses:	232078
+	Test == masterkey, spend 10219843 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	40
+	Total vars:	97320
+	Total clauses:	237992
+	Test == masterkey, spend 5644815 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	41
+	Total vars:	99714
+	Total clauses:	243906
+	Test == masterkey, spend 10224236 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	42
+	Total vars:	102108
+	Total clauses:	249820
+	Test == masterkey, spend 11504945 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	43
+	Total vars:	104502
+	Total clauses:	255734
+	Test == masterkey, spend 9929671 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	44
+	Total vars:	106896
+	Total clauses:	261648
+	Test == masterkey, spend 11311549 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	45
+	Total vars:	109290
+	Total clauses:	267562
+	Test == masterkey, spend 8954030 clocks.
+解得主密钥:  1	11010110000111110011000100011100010011111001100110110011111110100100010101010111011000110001111001100100101001011111011101010101
+	Have 1 results, spent 1280229851 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	11
+startRound:	25
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/skinny_64_2_NS 1 11 32 80"
+	User time (seconds): 48181.94
+	System time (seconds): 109.90
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:25:01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 277908
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13925279
+	Voluntary context switches: 1
+	Involuntary context switches: 115969
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 176
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

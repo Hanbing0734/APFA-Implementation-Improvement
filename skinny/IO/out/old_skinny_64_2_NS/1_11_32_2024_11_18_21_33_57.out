@@ -1,0 +1,90 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+8 = (2'+0+7')(1+7'+4')(0'+7+4')(3'+1'+6)(1'+6'+4)(3+0+7+6')(2'+7'+5)(2+1+7+5)(2+1'+5')(2'+0'+7)(2+6+5'+4)(0+6+5+4)(3+7'+6'+5')(3'+2+1+6')(2'+1+7+5')(3+0'+7'+5)(1'+7+6+4')(3'+2'+5+4')(0+7'+6'+4')(3+2+7+4')(1'+7'+4)(3'+2'+6)
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+8 = (3'+2'+6)(2'+1'+5)(1+0'+4')(2+0+4)(2'+0+7')(3'+2+6'+5')(2+1+7+5)(3'+0'+7)(3'+1'+6)(3+7+6'+4')(1'+6'+4)(2'+1+7+5')(3+7'+6'+5')(3+2+6+5')(3+0'+7'+5)(1'+7+6+4')(1'+0'+5'+4)(3'+1+5+4')(7'+6'+5+4)(3+1+5+4)(1+7'+6+4')(1'+0+7'+6')(2+6+5'+4)
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	2
+SAT_MODE:	2
+	SBOX_MODE:	102
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	11
+MinCiphers:	32
+MaxCiphers:	100
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	32
+	Total vars:	78168
+	Total clauses:	190680
+	Test == masterkey, spend 3179854 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	33
+	Total vars:	80562
+	Total clauses:	196594
+	Test == masterkey, spend 4326826 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	34
+	Total vars:	82956
+	Total clauses:	202508
+	Test == masterkey, spend 3767711 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	35
+	Total vars:	85350
+	Total clauses:	208422
+	Test == masterkey, spend 3305545 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	36
+	Total vars:	87744
+	Total clauses:	214336
+	Test == masterkey, spend 4470277 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	37
+	Total vars:	90138
+	Total clauses:	220250
+	Test == masterkey, spend 3951879 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	38
+	Total vars:	92532
+	Total clauses:	226164
+	Test == masterkey, spend 3705566 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	39
+	Total vars:	94926
+	Total clauses:	232078
+	Test == masterkey, spend 4458666 clocks.
+解得主密钥:  1	00111111100011011110110001011100101110100000111110100110110010111100100001000101101011110100110000000101101101000011000010000001
+	Not solved within 3600 seconds, Have 1 results.
+num_cipher:	40
+	Total vars:	97320
+	Total clauses:	237992
+	Test == masterkey, spend 8719626 clocks.
+解得主密钥:  1	00111111100011011110110001011100101110100000111110100110110010111100100001000101101011110100110000000101101101000011000010000001
+	Have 1 results, spent 1033898089 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	11
+startRound:	25
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/skinny_64_2_NS 1 11 32 100"
+	User time (seconds): 29867.91
+	System time (seconds): 70.14
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:19:03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 270324
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 6273529
+	Voluntary context switches: 1
+	Involuntary context switches: 66014
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

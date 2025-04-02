@@ -1,0 +1,237 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3+1+5')(1'+0+7'+5)(3'+1+0+7')(1+0'+7'+5)(1'+7+5'+4')(0+6'+5+4')(3'+7'+6+5')(2+7+5+4)(2'+7'+5'+4')(2+1'+0'+7)(3'+2'+0'+5)(0+7+6+4)(3'+1'+6'+4)(3+1'+0'+4)(2'+6'+5'+4)(1+7+6+5+4')(3+1'+6+5)(3'+2+7+6')(3+2'+7+6')(2+0+7'+6)(2+0'+7'+6'+4')(2+6+5+4')(1+0'+6+5')(2'+0+5'+4')(3+7'+6'+5')(2'+7'+5+4)
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3'+1+5+4')(3+1+0+4)(3+2+1'+5)(1'+0+7'+5)(3+1+0'+7')(3'+2'+0+5')(2'+7'+5'+4')(2'+6'+5'+4)(2+6+5'+4)(2'+1'+5+4)(3'+2+1'+7)(3'+1+0'+6)(3'+1'+0'+4')(3+2'+7+4')(0'+7+6'+4)(3+7+6+5')(3'+2+1+0+6')(2+0+7'+6)(0+7+6'+4')(1'+7'+6'+4)(2+0'+6'+5'+4')(2'+0'+7'+6)(3+6'+5'+4')(7'+6'+5+4)(0+6+5+4)(2+7+6+5)(2'+0+7'+6')
+Max time :	3600
+PRESENT_MODE:	80
+SAT_MODE:	2
+	SBOX_MODE:	102
+	KSR_HAVEERROR:	1
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	5
+MinCiphers:	18
+MaxCiphers:	50
+Threads:	1
+Master_key:	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+---------------------------------------------------------------------------------------------------
+num_cipher:	18
+	Total vars:	16536
+	Total clauses:	44848
+	Test == masterkey, spend 147069 clocks.
+	Not solved within3600 seconds, Have 11 results.
+num_cipher:	19
+	Total vars:	17432
+	Total clauses:	47280
+	Test == masterkey, spend 187283 clocks.
+解得主密钥:  4	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Not solved within3600 seconds, Have 7 results.
+num_cipher:	20
+	Total vars:	18328
+	Total clauses:	49712
+	Test == masterkey, spend 237460 clocks.
+解得主密钥:  3	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 863006660 clocks.
+num_cipher:	21
+	Total vars:	19224
+	Total clauses:	52144
+	Test == masterkey, spend 220240 clocks.
+解得主密钥:  5	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 167275359 clocks.
+num_cipher:	22
+	Total vars:	20120
+	Total clauses:	54576
+	Test == masterkey, spend 325517 clocks.
+解得主密钥:  2	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 68577290 clocks.
+num_cipher:	23
+	Total vars:	21016
+	Total clauses:	57008
+	Test == masterkey, spend 329269 clocks.
+解得主密钥:  8	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 40701036 clocks.
+num_cipher:	24
+	Total vars:	21912
+	Total clauses:	59440
+	Test == masterkey, spend 342996 clocks.
+解得主密钥:  8	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 22747500 clocks.
+num_cipher:	25
+	Total vars:	22808
+	Total clauses:	61872
+	Test == masterkey, spend 412475 clocks.
+解得主密钥:  7	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 16921574 clocks.
+num_cipher:	26
+	Total vars:	23704
+	Total clauses:	64304
+	Test == masterkey, spend 394698 clocks.
+解得主密钥:  4	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 9210425 clocks.
+num_cipher:	27
+	Total vars:	24600
+	Total clauses:	66736
+	Test == masterkey, spend 558217 clocks.
+解得主密钥:  3	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 5039801 clocks.
+num_cipher:	28
+	Total vars:	25496
+	Total clauses:	69168
+	Test == masterkey, spend 567758 clocks.
+解得主密钥:  8	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 4064093 clocks.
+num_cipher:	29
+	Total vars:	26392
+	Total clauses:	71600
+	Test == masterkey, spend 559253 clocks.
+解得主密钥:  5	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 3122075 clocks.
+num_cipher:	30
+	Total vars:	27288
+	Total clauses:	74032
+	Test == masterkey, spend 558984 clocks.
+解得主密钥:  5	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 2699565 clocks.
+num_cipher:	31
+	Total vars:	28184
+	Total clauses:	76464
+	Test == masterkey, spend 492800 clocks.
+解得主密钥:  5	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 2788074 clocks.
+num_cipher:	32
+	Total vars:	29080
+	Total clauses:	78896
+	Test == masterkey, spend 831561 clocks.
+解得主密钥:  1	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 2526101 clocks.
+num_cipher:	33
+	Total vars:	29976
+	Total clauses:	81328
+	Test == masterkey, spend 607205 clocks.
+解得主密钥:  6	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 2587667 clocks.
+num_cipher:	34
+	Total vars:	30872
+	Total clauses:	83760
+	Test == masterkey, spend 847586 clocks.
+解得主密钥:  6	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 2950420 clocks.
+num_cipher:	35
+	Total vars:	31768
+	Total clauses:	86192
+	Test == masterkey, spend 926696 clocks.
+解得主密钥:  1	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 2341159 clocks.
+num_cipher:	36
+	Total vars:	32664
+	Total clauses:	88624
+	Test == masterkey, spend 884381 clocks.
+解得主密钥:  2	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 2529528 clocks.
+num_cipher:	37
+	Total vars:	33560
+	Total clauses:	91056
+	Test == masterkey, spend 983623 clocks.
+解得主密钥:  1	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 2865437 clocks.
+num_cipher:	38
+	Total vars:	34456
+	Total clauses:	93488
+	Test == masterkey, spend 1201669 clocks.
+解得主密钥:  8	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 3028125 clocks.
+num_cipher:	39
+	Total vars:	35352
+	Total clauses:	95920
+	Test == masterkey, spend 1078812 clocks.
+解得主密钥:  4	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 3189211 clocks.
+num_cipher:	40
+	Total vars:	36248
+	Total clauses:	98352
+	Test == masterkey, spend 1219257 clocks.
+解得主密钥:  6	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 3200172 clocks.
+num_cipher:	41
+	Total vars:	37144
+	Total clauses:	100784
+	Test == masterkey, spend 1334485 clocks.
+解得主密钥:  4	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 3919975 clocks.
+num_cipher:	42
+	Total vars:	38040
+	Total clauses:	103216
+	Test == masterkey, spend 1483671 clocks.
+解得主密钥:  7	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 3689386 clocks.
+num_cipher:	43
+	Total vars:	38936
+	Total clauses:	105648
+	Test == masterkey, spend 1523980 clocks.
+解得主密钥:  1	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 3675012 clocks.
+num_cipher:	44
+	Total vars:	39832
+	Total clauses:	108080
+	Test == masterkey, spend 1731167 clocks.
+解得主密钥:  5	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 3830631 clocks.
+num_cipher:	45
+	Total vars:	40728
+	Total clauses:	110512
+	Test == masterkey, spend 1648071 clocks.
+解得主密钥:  7	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 3863227 clocks.
+num_cipher:	46
+	Total vars:	41624
+	Total clauses:	112944
+	Test == masterkey, spend 1867399 clocks.
+解得主密钥:  2	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 4352927 clocks.
+num_cipher:	47
+	Total vars:	42520
+	Total clauses:	115376
+	Test == masterkey, spend 1993696 clocks.
+解得主密钥:  2	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 4129841 clocks.
+num_cipher:	48
+	Total vars:	43416
+	Total clauses:	117808
+	Test == masterkey, spend 2101589 clocks.
+解得主密钥:  5	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 4331772 clocks.
+num_cipher:	49
+	Total vars:	44312
+	Total clauses:	120240
+	Test == masterkey, spend 2211618 clocks.
+解得主密钥:  6	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 4502429 clocks.
+num_cipher:	50
+	Total vars:	45208
+	Total clauses:	122672
+	Test == masterkey, spend 2044306 clocks.
+解得主密钥:  1	10000101100000011110001110111011011010110001111111011111110000011110011111100000
+	Have 8 results, spent 4702607 clocks.
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present80NSNK 1 5 18 50"
+	User time (seconds): 8488.26
+	System time (seconds): 22.33
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:21:52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 103560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 89580
+	Voluntary context switches: 7
+	Involuntary context switches: 26309
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 264
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

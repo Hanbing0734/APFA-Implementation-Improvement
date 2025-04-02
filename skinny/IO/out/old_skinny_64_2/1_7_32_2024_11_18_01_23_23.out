@@ -1,0 +1,57 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3 = 0  2  3  23  4  
+y2 = 1  2  3  12  4  
+y1 = 0  3  01  12  13  23  123  
+y0 = 1  2  3  01  02  03  13  012  123  
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3' = 0  2  3  23  4  
+y2' = 1  2  3  12  4  
+y1' = 0  3  01  12  13  23  123  
+y0' = 0  12  23  013  023  0123  4  
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	2
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	7
+MinCiphers:	32
+MaxCiphers:	100
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	32
+	Total vars:	97688
+	Total clauses:	276760
+	Test == masterkey, spend 14480394 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	33
+	Total vars:	100692
+	Total clauses:	285364
+	Test == masterkey, spend 15096759 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	34
+	Total vars:	103696
+	Total clauses:	293968
+	Test == masterkey, spend 13769411 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	35
+	Total vars:	106700
+	Total clauses:	302572
+	Test == masterkey, spend 16591661 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	36
+	Total vars:	109704
+	Total clauses:	311176
+	Test == masterkey, spend 15364850 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	37
+	Total vars:	112708
+	Total clauses:	319780
+	Test == masterkey, spend 19561245 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	38
+	Total vars:	115712
+	Total clauses:	328384
+	Test == masterkey, spend 16475668 clocks.
+
+    end

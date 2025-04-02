@@ -1,0 +1,66 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3+1+5')(1'+0+7'+5)(3'+1+0+7')(1+0'+7'+5)(1'+7+5'+4')(0+6'+5+4')(3'+7'+6+5')(2+7+5+4)(2'+7'+5'+4')(2+1'+0'+7)(3'+2'+0'+5)(0+7+6+4)(3'+1'+6'+4)(3+1'+0'+4)(2'+6'+5'+4)(1+7+6+5+4')(3+1'+6+5)(3'+2+7+6')(3+2'+7+6')(2+0+7'+6)(2+0'+7'+6'+4')(2+6+5+4')(1+0'+6+5')(2'+0+5'+4')(3+7'+6'+5')(2'+7'+5+4)
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (3'+1+5+4')(3+1+0+4)(3+2+1'+5)(1'+0+7'+5)(3+1+0'+7')(3'+2'+0+5')(2'+7'+5'+4')(2'+6'+5'+4)(2+6+5'+4)(2'+1'+5+4)(3'+2+1'+7)(3'+1+0'+6)(3'+1'+0'+4')(3+2'+7+4')(0'+7+6'+4)(3+7+6+5')(3'+2+1+0+6')(2+0+7'+6)(0+7+6'+4')(1'+7'+6'+4)(2+0'+6'+5'+4')(2'+0'+7'+6)(3+6'+5'+4')(7'+6'+5+4)(0+6+5+4)(2+7+6+5)(2'+0+7'+6')
+Max time :	3600
+PRESENT_MODE:	80
+SAT_MODE:	1
+	SBOX_MODE:	102
+	KSR_HAVEERROR:	0
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	10
+MinCiphers:	18
+MaxCiphers:	50
+Threads:	1
+Master_key:	00110011000101011001111010111011011101011101100001010101110100001011010000110111
+---------------------------------------------------------------------------------------------------
+num_cipher:	18
+	Total vars:	33692
+	Total clauses:	96502
+	Test == masterkey, spend 1702546 clocks.
+	Not solved within3600 seconds, Have 0 results.
+num_cipher:	19
+	Total vars:	35548
+	Total clauses:	101814
+	Test == masterkey, spend 1823092 clocks.
+	Not solved within3600 seconds, Have 0 results.
+num_cipher:	20
+	Total vars:	37404
+	Total clauses:	107126
+	Test == masterkey, spend 2436898 clocks.
+解得主密钥:  1	00110011000101011001111010111011011101011101100001010101110100001011010000110111
+	Not solved within3600 seconds, Have 1 results.
+num_cipher:	21
+	Total vars:	39260
+	Total clauses:	112438
+	Test == masterkey, spend 2084880 clocks.
+解得主密钥:  1	00110011000101011001111010111011011101011101100001010101110100001011010000110111
+	Have 1 results, spent 647775264 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	10
+startRound:	22
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present80NS 1 10 18 50"
+	User time (seconds): 11454.31
+	System time (seconds): 8.85
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:11:04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 146560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 192288
+	Voluntary context switches: 1
+	Involuntary context switches: 19855
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

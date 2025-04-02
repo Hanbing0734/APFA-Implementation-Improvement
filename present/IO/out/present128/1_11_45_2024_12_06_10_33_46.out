@@ -1,0 +1,126 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+y3 = 0  1  3  12  012  013  023  4  
+y2 = 2  3  01  03  13  013  023  4  
+y1 = 1  3  13  23  012  013  023  
+y0 = 0  2  3  12  
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+y3' = 0  1  3  12  012  013  023  4  
+y2' = 2  3  01  03  13  013  023  4  
+y1' = 1  3  13  23  012  013  023  
+y0' = 1  01  02  03  13  23  012  013  023  123  0123  4  
+Max time :	3600
+PRESENT_MODE:	128
+SAT_MODE:	0
+	SBOX_MODE:	101
+	KSR_HAVEERROR:	0
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	11
+MinCiphers:	45
+MaxCiphers:	60
+Threads:	1
+Master_key:	00011101111100110001011011100010011111001111001001000110100101011100110000100011111000010011010100111110110011110011110111010001
+---------------------------------------------------------------------------------------------------
+num_cipher:	45
+	Total vars:	172312
+	Total clauses:	382162
+	Test == masterkey, spend 63536271 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	46
+	Total vars:	176120
+	Total clauses:	390610
+	Test == masterkey, spend 64716884 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	47
+	Total vars:	179928
+	Total clauses:	399058
+	Test == masterkey, spend 68772741 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	48
+	Total vars:	183736
+	Total clauses:	407506
+	Test == masterkey, spend 66876397 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	49
+	Total vars:	187544
+	Total clauses:	415954
+	Test == masterkey, spend 71756427 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	50
+	Total vars:	191352
+	Total clauses:	424402
+	Test == masterkey, spend 65319385 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	51
+	Total vars:	195160
+	Total clauses:	432850
+	Test == masterkey, spend 83073710 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	52
+	Total vars:	198968
+	Total clauses:	441298
+	Test == masterkey, spend 67658086 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	53
+	Total vars:	202776
+	Total clauses:	449746
+	Test == masterkey, spend 79026315 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	54
+	Total vars:	206584
+	Total clauses:	458194
+	Test == masterkey, spend 72645427 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	55
+	Total vars:	210392
+	Total clauses:	466642
+	Test == masterkey, spend 72912693 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	56
+	Total vars:	214200
+	Total clauses:	475090
+	Test == masterkey, spend 84924253 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	57
+	Total vars:	218008
+	Total clauses:	483538
+	Test == masterkey, spend 91560725 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	58
+	Total vars:	221816
+	Total clauses:	491986
+	Test == masterkey, spend 93902727 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	59
+	Total vars:	225624
+	Total clauses:	500434
+	Test == masterkey, spend 106953949 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	60
+	Total vars:	229432
+	Total clauses:	508882
+	Test == masterkey, spend 103372322 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present128 1 11 45 60"
+	User time (seconds): 58873.24
+	System time (seconds): 92.68
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:22:57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 399492
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3226342
+	Voluntary context switches: 1
+	Involuntary context switches: 120714
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 264
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

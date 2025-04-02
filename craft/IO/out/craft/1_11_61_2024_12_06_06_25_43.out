@@ -1,0 +1,96 @@
+sbox:	1100 1010 1101 0011 1110 1011 1111 0111 1000 1001 0001 0101 0000 0010 0100 0110 
+y3 = 01  13  23  013  123  4  
+y2 = 0  3  03  012  013  123  4  
+y1 = 0  2  02  03  23  
+y0 = 1  02  03  012  013  123  
+e_sbox:	0100 1010 1101 0011 1110 1011 1111 0111 1000 1001 0001 0101 0000 0010 0100 0110 
+y3' = 0  1  2  3  02  03  12  012  023  0123  
+y2' = 0  3  03  012  013  123  4  
+y1' = 0  2  02  03  23  
+y0' = 1  02  03  012  013  123  
+Max time :	3600
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	11
+MinCiphers:	61
+MaxCiphers:	70
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	61
+	Total vars:	237311
+	Total clauses:	481119
+	Test == masterkey, spend 136652194 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	62
+	Total vars:	241194
+	Total clauses:	489002
+	Test == masterkey, spend 137819143 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	63
+	Total vars:	245077
+	Total clauses:	496885
+	Test == masterkey, spend 133435252 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	64
+	Total vars:	248960
+	Total clauses:	504768
+	Test == masterkey, spend 143111411 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	65
+	Total vars:	252843
+	Total clauses:	512651
+	Test == masterkey, spend 145028693 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	66
+	Total vars:	256726
+	Total clauses:	520534
+	Test == masterkey, spend 139843149 clocks.
+解得 mater_key 与 tweakey:	4
+mater_key:	01000011111001111011100111010110000010111010101000101101001010011010010011000111001011010101110011010111111010110000011011000100
+tweakey:	1011000001011101010100010110100101001101001001100011100101101010
+	Have 16 results, spent 2400300327 clocks.
+num_cipher:	67
+	Total vars:	260609
+	Total clauses:	528417
+	Test == masterkey, spend 143255907 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	68
+	Total vars:	264492
+	Total clauses:	536300
+	Test == masterkey, spend 141705929 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	69
+	Total vars:	268375
+	Total clauses:	544183
+	Test == masterkey, spend 147186493 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	70
+	Total vars:	272258
+	Total clauses:	552066
+	Test == masterkey, spend 148354741 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/craft 1 11 61 70"
+	User time (seconds): 36223.79
+	System time (seconds): 85.03
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:05:15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 498500
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12969482
+	Voluntary context switches: 1
+	Involuntary context switches: 85950
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 176
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

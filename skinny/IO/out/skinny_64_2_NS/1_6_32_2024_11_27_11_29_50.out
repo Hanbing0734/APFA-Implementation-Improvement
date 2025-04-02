@@ -1,0 +1,94 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+8 = (2'+0+7')(1+7'+4')(0'+7+4')(3'+1'+6)(1'+6'+4)(3+0+7+6')(2'+7'+5)(2+1+7+5)(2+1'+5')(2'+0'+7)(2+6+5'+4)(0+6+5+4)(3+7'+6'+5')(3'+2+1+6')(2'+1+7+5')(3+0'+7'+5)(1'+7+6+4')(3'+2'+5+4')(0+7'+6'+4')(3+2+7+4')(1'+7'+4)(3'+2'+6)
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+8 = (3'+2'+6)(2'+1'+5)(1+0'+4')(2+0+4)(2'+0+7')(3'+2+6'+5')(2+1+7+5)(3'+0'+7)(3'+1'+6)(3+7+6'+4')(1'+6'+4)(2'+1+7+5')(3+7'+6'+5')(3+2+6+5')(3+0'+7'+5)(1'+7+6+4')(1'+0'+5'+4)(3'+1+5+4')(7'+6'+5+4)(3+1+5+4)(1+7'+6+4')(1'+0+7'+6')(2+6+5'+4)
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	2
+SAT_MODE:	2
+	SBOX_MODE:	102
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	6
+MinCiphers:	32
+MaxCiphers:	80
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	32
+	Total vars:	44280
+	Total clauses:	105592
+	Test == masterkey, spend 1151742 clocks.
+	Have more than 1024 results, spent 3230827352 clocks.
+num_cipher:	33
+	Total vars:	45615
+	Total clauses:	108847
+	Test == masterkey, spend 976096 clocks.
+	Have more than 1024 results, spent 2854515162 clocks.
+num_cipher:	34
+	Total vars:	46950
+	Total clauses:	112102
+	Test == masterkey, spend 1013118 clocks.
+	Have more than 1024 results, spent 3237147324 clocks.
+num_cipher:	35
+	Total vars:	48285
+	Total clauses:	115357
+	Test == masterkey, spend 1208681 clocks.
+	Not solved within 3600 seconds, Have 1015 results.
+num_cipher:	36
+	Total vars:	49620
+	Total clauses:	118612
+	Test == masterkey, spend 1224763 clocks.
+	Not solved within 3600 seconds, Have 884 results.
+num_cipher:	37
+	Total vars:	50955
+	Total clauses:	121867
+	Test == masterkey, spend 1393003 clocks.
+	Not solved within 3600 seconds, Have 858 results.
+num_cipher:	38
+	Total vars:	52290
+	Total clauses:	125122
+	Test == masterkey, spend 1204692 clocks.
+	Not solved within 3600 seconds, Have 1010 results.
+num_cipher:	39
+	Total vars:	53625
+	Total clauses:	128377
+	Test == masterkey, spend 1476251 clocks.
+	Have more than 1024 results, spent 3598956050 clocks.
+num_cipher:	40
+	Total vars:	54960
+	Total clauses:	131632
+	Test == masterkey, spend 1492527 clocks.
+	Not solved within 3600 seconds, Have 890 results.
+num_cipher:	41
+	Total vars:	56295
+	Total clauses:	134887
+	Test == masterkey, spend 1509442 clocks.
+	Not solved within 3600 seconds, Have 983 results.
+num_cipher:	42
+	Total vars:	57630
+	Total clauses:	138142
+	Test == masterkey, spend 1508120 clocks.
+skinny_64_2_NS: /home/hanbing/cryptominisat/src/cryptominisat.cpp:527: void CMSat::SATSolver::set_max_time(double): Assertion `max_time >= 0 && "Cannot set negative limit on running time"' failed.
+Command terminated by signal 6
+	Command being timed: "./bin/skinny_64_2_NS 1 6 32 80"
+	User time (seconds): 38051.63
+	System time (seconds): 87.81
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:35:45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 191388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 6402870
+	Voluntary context switches: 3
+	Involuntary context switches: 84462
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

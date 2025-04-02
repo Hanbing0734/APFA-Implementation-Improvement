@@ -1,0 +1,46 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+8 = (2'+0+7')(1+7'+4')(0'+7+4')(3'+1'+6)(1'+6'+4)(3+0+7+6')(2'+7'+5)(2+1+7+5)(2+1'+5')(2'+0'+7)(2+6+5'+4)(0+6+5+4)(3+7'+6'+5')(3'+2+1+6')(2'+1+7+5')(3+0'+7'+5)(1'+7+6+4')(3'+2'+5+4')(0+7'+6'+4')(3+2+7+4')(1'+7'+4)(3'+2'+6)
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+8 = (3'+2'+6)(2'+1'+5)(1+0'+4')(2+0+4)(2'+0+7')(3'+2+6'+5')(2+1+7+5)(3'+0'+7)(3'+1'+6)(3+7+6'+4')(1'+6'+4)(2'+1+7+5')(3+7'+6'+5')(3+2+6+5')(3+0'+7'+5)(1'+7+6+4')(1'+0'+5'+4)(3'+1+5+4')(7'+6'+5+4)(3+1+5+4)(1+7'+6+4')(1'+0+7'+6')(2+6+5'+4)
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	3
+SAT_MODE:	2
+	SBOX_MODE:	102
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	7
+MinCiphers:	130
+MaxCiphers:	200
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	130
+	Total vars:	203596
+	Total clauses:	494604
+	Test == masterkey, spend 13594915 clocks.
+	Not solved within 3600 seconds, Have 438 results.
+num_cipher:	131
+	Total vars:	205146
+	Total clauses:	498394
+	Test == masterkey, spend 13079228 clocks.
+	Not solved within 3600 seconds, Have 463 results.
+num_cipher:	132
+	Total vars:	206696
+	Total clauses:	502184
+	Test == masterkey, spend 13867747 clocks.
+	Not solved within 3600 seconds, Have 417 results.
+num_cipher:	133
+	Total vars:	208246
+	Total clauses:	505974
+	Test == masterkey, spend 12837061 clocks.
+	Not solved within 3600 seconds, Have 391 results.
+num_cipher:	134
+	Total vars:	209796
+	Total clauses:	509764
+	Test == masterkey, spend 13633923 clocks.
+	Not solved within 3600 seconds, Have 467 results.
+num_cipher:	135
+	Total vars:	211346
+	Total clauses:	513554
+	Test == masterkey, spend 13661170 clocks.
+
+    end

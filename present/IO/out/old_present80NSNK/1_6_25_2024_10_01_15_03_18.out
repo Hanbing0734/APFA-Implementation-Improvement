@@ -1,0 +1,319 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (0+2+6')(2'+3+4'+6)(0'+2+3+4')(2+3'+4'+6)(2'+4+6'+7')(3+5'+6+7')(0'+4'+5+6')(1+4+6+7)(1'+4'+6'+7')(1+2'+3'+4)(0'+1'+3'+6)(3+4+5+7)(0'+2'+5'+7)(0+2'+3'+7)(1'+5'+6'+7)(2+4+5+6+7')(0+2'+5+6)(0'+1+4+5')(0+1'+4+5')(1+3+4'+5)(1+3'+4'+5'+7')(1+5+6+7')(2+3'+5+6')(1'+3+6'+7')(0+4'+5'+6')(1'+4'+6+7)
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+8 = (0'+2+6+7')(0+2+3+7)(0+1+2'+6)(2'+3+4'+6)(0+2+3'+4')(0'+1'+3+6')(1'+4'+6'+7')(1'+5'+6'+7)(1+5+6'+7)(1'+2'+6+7)(0'+1+2'+4)(0'+2+3'+5)(0'+2'+3'+7')(0+1'+4+7')(3'+4+5'+7)(0+4+5+6')(0'+1+2+3+5')(1+3+4'+5)(3+4+5'+7')(2'+4'+5'+7)(1+3'+5'+6'+7')(1'+3'+4'+5)(0+5'+6'+7')(4'+5'+6+7)(3+5+6+7)(1+4+5+6)(1'+3+4'+5')
+PRESENT_MODE:	80
+SAT_MODE:	2
+	SBOX_MODE:	102
+	KSR_HAVEERROR:	1
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	6
+MinCiphers:	25
+MaxCiphers:	80
+Threads:	1
+Master_key:	10011110101110011001100111000111110001110010111010100011100100111010110010110100
+---------------------------------------------------------------------------------------------------
+num_cipher:	25
+	Total vars:	27608
+	Total clauses:	76272
+	Test == masterkey, spend 732077 clocks.
+	Have 2 results, spent 10808498 clocks.
+num_cipher:	26
+	Total vars:	28696
+	Total clauses:	79280
+	Test == masterkey, spend 860199 clocks.
+	Have 2 results, spent 7863669 clocks.
+num_cipher:	27
+	Total vars:	29784
+	Total clauses:	82288
+	Test == masterkey, spend 858815 clocks.
+	Have 2 results, spent 4895710 clocks.
+num_cipher:	28
+	Total vars:	30872
+	Total clauses:	85296
+	Test == masterkey, spend 1116947 clocks.
+	Have 2 results, spent 2307597 clocks.
+num_cipher:	29
+	Total vars:	31960
+	Total clauses:	88304
+	Test == masterkey, spend 1266182 clocks.
+	Have 2 results, spent 2213234 clocks.
+num_cipher:	30
+	Total vars:	33048
+	Total clauses:	91312
+	Test == masterkey, spend 1103297 clocks.
+	Have 2 results, spent 2662879 clocks.
+num_cipher:	31
+	Total vars:	34136
+	Total clauses:	94320
+	Test == masterkey, spend 1267922 clocks.
+	Have 2 results, spent 2335081 clocks.
+num_cipher:	32
+	Total vars:	35224
+	Total clauses:	97328
+	Test == masterkey, spend 1315335 clocks.
+	Have 2 results, spent 2244089 clocks.
+num_cipher:	33
+	Total vars:	36312
+	Total clauses:	100336
+	Test == masterkey, spend 1531080 clocks.
+	Have 2 results, spent 2224838 clocks.
+num_cipher:	34
+	Total vars:	37400
+	Total clauses:	103344
+	Test == masterkey, spend 1381761 clocks.
+	Have 2 results, spent 2394414 clocks.
+num_cipher:	35
+	Total vars:	38488
+	Total clauses:	106352
+	Test == masterkey, spend 1765933 clocks.
+	Have 2 results, spent 2357728 clocks.
+num_cipher:	36
+	Total vars:	39576
+	Total clauses:	109360
+	Test == masterkey, spend 1682867 clocks.
+	Have 2 results, spent 2329070 clocks.
+num_cipher:	37
+	Total vars:	40664
+	Total clauses:	112368
+	Test == masterkey, spend 2037375 clocks.
+	Have 2 results, spent 2558468 clocks.
+num_cipher:	38
+	Total vars:	41752
+	Total clauses:	115376
+	Test == masterkey, spend 1937296 clocks.
+	Have 2 results, spent 1824862 clocks.
+num_cipher:	39
+	Total vars:	42840
+	Total clauses:	118384
+	Test == masterkey, spend 1939993 clocks.
+	Have 2 results, spent 2515769 clocks.
+num_cipher:	40
+	Total vars:	43928
+	Total clauses:	121392
+	Test == masterkey, spend 2237557 clocks.
+	Have 2 results, spent 2576148 clocks.
+num_cipher:	41
+	Total vars:	45016
+	Total clauses:	124400
+	Test == masterkey, spend 1996962 clocks.
+	Have 2 results, spent 2980553 clocks.
+num_cipher:	42
+	Total vars:	46104
+	Total clauses:	127408
+	Test == masterkey, spend 1904387 clocks.
+	Have 2 results, spent 2778254 clocks.
+num_cipher:	43
+	Total vars:	47192
+	Total clauses:	130416
+	Test == masterkey, spend 2529721 clocks.
+	Have 2 results, spent 2600887 clocks.
+num_cipher:	44
+	Total vars:	48280
+	Total clauses:	133424
+	Test == masterkey, spend 2524613 clocks.
+	Have 2 results, spent 2684777 clocks.
+num_cipher:	45
+	Total vars:	49368
+	Total clauses:	136432
+	Test == masterkey, spend 3107422 clocks.
+	Have 2 results, spent 3122392 clocks.
+num_cipher:	46
+	Total vars:	50456
+	Total clauses:	139440
+	Test == masterkey, spend 3110637 clocks.
+	Have 2 results, spent 2785509 clocks.
+num_cipher:	47
+	Total vars:	51544
+	Total clauses:	142448
+	Test == masterkey, spend 3898645 clocks.
+	Have 2 results, spent 2889334 clocks.
+num_cipher:	48
+	Total vars:	52632
+	Total clauses:	145456
+	Test == masterkey, spend 3274354 clocks.
+	Have 2 results, spent 3453109 clocks.
+num_cipher:	49
+	Total vars:	53720
+	Total clauses:	148464
+	Test == masterkey, spend 3758488 clocks.
+	Have 2 results, spent 2959180 clocks.
+num_cipher:	50
+	Total vars:	54808
+	Total clauses:	151472
+	Test == masterkey, spend 3782510 clocks.
+	Have 2 results, spent 3513317 clocks.
+num_cipher:	51
+	Total vars:	55896
+	Total clauses:	154480
+	Test == masterkey, spend 4087339 clocks.
+	Have 2 results, spent 4050893 clocks.
+num_cipher:	52
+	Total vars:	56984
+	Total clauses:	157488
+	Test == masterkey, spend 4053587 clocks.
+	Have 2 results, spent 4073772 clocks.
+num_cipher:	53
+	Total vars:	58072
+	Total clauses:	160496
+	Test == masterkey, spend 4784816 clocks.
+	Have 2 results, spent 3817776 clocks.
+num_cipher:	54
+	Total vars:	59160
+	Total clauses:	163504
+	Test == masterkey, spend 4578417 clocks.
+	Have 2 results, spent 3461879 clocks.
+num_cipher:	55
+	Total vars:	60248
+	Total clauses:	166512
+	Test == masterkey, spend 4834098 clocks.
+	Have 2 results, spent 5538411 clocks.
+num_cipher:	56
+	Total vars:	61336
+	Total clauses:	169520
+	Test == masterkey, spend 5121859 clocks.
+	Have 2 results, spent 3954497 clocks.
+num_cipher:	57
+	Total vars:	62424
+	Total clauses:	172528
+	Test == masterkey, spend 4890305 clocks.
+	Have 2 results, spent 5427604 clocks.
+num_cipher:	58
+	Total vars:	63512
+	Total clauses:	175536
+	Test == masterkey, spend 4947750 clocks.
+	Have 2 results, spent 5729508 clocks.
+num_cipher:	59
+	Total vars:	64600
+	Total clauses:	178544
+	Test == masterkey, spend 5550775 clocks.
+	Have 2 results, spent 4340040 clocks.
+num_cipher:	60
+	Total vars:	65688
+	Total clauses:	181552
+	Test == masterkey, spend 5283383 clocks.
+	Have 2 results, spent 5171772 clocks.
+num_cipher:	61
+	Total vars:	66776
+	Total clauses:	184560
+	Test == masterkey, spend 6039809 clocks.
+	Have 2 results, spent 5263748 clocks.
+num_cipher:	62
+	Total vars:	67864
+	Total clauses:	187568
+	Test == masterkey, spend 5646990 clocks.
+	Have 2 results, spent 5046293 clocks.
+num_cipher:	63
+	Total vars:	68952
+	Total clauses:	190576
+	Test == masterkey, spend 6274548 clocks.
+	Have 2 results, spent 6275628 clocks.
+num_cipher:	64
+	Total vars:	70040
+	Total clauses:	193584
+	Test == masterkey, spend 6329689 clocks.
+	Have 2 results, spent 5838775 clocks.
+num_cipher:	65
+	Total vars:	71128
+	Total clauses:	196592
+	Test == masterkey, spend 6334273 clocks.
+	Have 2 results, spent 6805237 clocks.
+num_cipher:	66
+	Total vars:	72216
+	Total clauses:	199600
+	Test == masterkey, spend 5950885 clocks.
+	Have 2 results, spent 5504366 clocks.
+num_cipher:	67
+	Total vars:	73304
+	Total clauses:	202608
+	Test == masterkey, spend 6786401 clocks.
+	Have 2 results, spent 5394355 clocks.
+num_cipher:	68
+	Total vars:	74392
+	Total clauses:	205616
+	Test == masterkey, spend 6110943 clocks.
+	Have 2 results, spent 5440592 clocks.
+num_cipher:	69
+	Total vars:	75480
+	Total clauses:	208624
+	Test == masterkey, spend 7002372 clocks.
+	Have 2 results, spent 5872633 clocks.
+num_cipher:	70
+	Total vars:	76568
+	Total clauses:	211632
+	Test == masterkey, spend 6808449 clocks.
+	Have 2 results, spent 6271990 clocks.
+num_cipher:	71
+	Total vars:	77656
+	Total clauses:	214640
+	Test == masterkey, spend 7713092 clocks.
+	Have 2 results, spent 7240104 clocks.
+num_cipher:	72
+	Total vars:	78744
+	Total clauses:	217648
+	Test == masterkey, spend 8032556 clocks.
+	Have 2 results, spent 7405492 clocks.
+num_cipher:	73
+	Total vars:	79832
+	Total clauses:	220656
+	Test == masterkey, spend 8082580 clocks.
+	Have 2 results, spent 7276129 clocks.
+num_cipher:	74
+	Total vars:	80920
+	Total clauses:	223664
+	Test == masterkey, spend 7571604 clocks.
+	Have 2 results, spent 6423044 clocks.
+num_cipher:	75
+	Total vars:	82008
+	Total clauses:	226672
+	Test == masterkey, spend 8075238 clocks.
+	Have 2 results, spent 6197182 clocks.
+num_cipher:	76
+	Total vars:	83096
+	Total clauses:	229680
+	Test == masterkey, spend 8159187 clocks.
+	Have 2 results, spent 7497195 clocks.
+num_cipher:	77
+	Total vars:	84184
+	Total clauses:	232688
+	Test == masterkey, spend 8823952 clocks.
+	Have 2 results, spent 8054697 clocks.
+num_cipher:	78
+	Total vars:	85272
+	Total clauses:	235696
+	Test == masterkey, spend 10661120 clocks.
+	Have 2 results, spent 6429419 clocks.
+num_cipher:	79
+	Total vars:	86360
+	Total clauses:	238704
+	Test == masterkey, spend 9224852 clocks.
+	Have 2 results, spent 6567700 clocks.
+num_cipher:	80
+	Total vars:	87448
+	Total clauses:	241712
+	Test == masterkey, spend 11666584 clocks.
+	Have 2 results, spent 6999401 clocks.
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present80NSNK 1 6 25 80"
+	User time (seconds): 551.60
+	System time (seconds): 2.15
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:13.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 107104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 208468
+	Voluntary context switches: 1
+	Involuntary context switches: 2478
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

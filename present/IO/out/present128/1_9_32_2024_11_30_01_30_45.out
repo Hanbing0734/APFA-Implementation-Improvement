@@ -1,0 +1,136 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+y3 = 0  1  3  12  012  013  023  4  
+y2 = 2  3  01  03  13  013  023  4  
+y1 = 1  3  13  23  012  013  023  
+y0 = 0  2  3  12  
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+y3' = 0  1  3  12  012  013  023  4  
+y2' = 2  3  01  03  13  013  023  4  
+y1' = 1  3  13  23  012  013  023  
+y0' = 1  01  02  03  13  23  012  013  023  123  0123  4  
+Max time :	3600
+PRESENT_MODE:	128
+SAT_MODE:	0
+	SBOX_MODE:	101
+	KSR_HAVEERROR:	0
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	9
+MinCiphers:	32
+MaxCiphers:	50
+Threads:	1
+Master_key:	00011101111100110001011011100010011111001111001001000110100101011100110000100011111000010011010100111110110011110011110111010001
+---------------------------------------------------------------------------------------------------
+num_cipher:	32
+	Total vars:	99256
+	Total clauses:	219090
+	Test == masterkey, spend 24029106 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	33
+	Total vars:	102328
+	Total clauses:	225874
+	Test == masterkey, spend 21442707 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	34
+	Total vars:	105400
+	Total clauses:	232658
+	Test == masterkey, spend 22871869 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	35
+	Total vars:	108472
+	Total clauses:	239442
+	Test == masterkey, spend 22502196 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	36
+	Total vars:	111544
+	Total clauses:	246226
+	Test == masterkey, spend 21778473 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	37
+	Total vars:	114616
+	Total clauses:	253010
+	Test == masterkey, spend 29090997 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	38
+	Total vars:	117688
+	Total clauses:	259794
+	Test == masterkey, spend 31647965 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	39
+	Total vars:	120760
+	Total clauses:	266578
+	Test == masterkey, spend 29755148 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	40
+	Total vars:	123832
+	Total clauses:	273362
+	Test == masterkey, spend 27130663 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	41
+	Total vars:	126904
+	Total clauses:	280146
+	Test == masterkey, spend 29439670 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	42
+	Total vars:	129976
+	Total clauses:	286930
+	Test == masterkey, spend 28410844 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	43
+	Total vars:	133048
+	Total clauses:	293714
+	Test == masterkey, spend 30447006 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	44
+	Total vars:	136120
+	Total clauses:	300498
+	Test == masterkey, spend 31246884 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	45
+	Total vars:	139192
+	Total clauses:	307282
+	Test == masterkey, spend 30104691 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	46
+	Total vars:	142264
+	Total clauses:	314066
+	Test == masterkey, spend 31822259 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	47
+	Total vars:	145336
+	Total clauses:	320850
+	Test == masterkey, spend 29521256 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	48
+	Total vars:	148408
+	Total clauses:	327634
+	Test == masterkey, spend 40737337 clocks.
+解得主密钥:  1	00011101111100110001011011100010011111001111001001000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 1 results, spent 3339945394 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	9
+startRound:	23
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present128 1 9 32 50"
+	User time (seconds): 61432.02
+	System time (seconds): 92.62
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 17:05:36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 270548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1424380
+	Voluntary context switches: 1
+	Involuntary context switches: 132860
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 280
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

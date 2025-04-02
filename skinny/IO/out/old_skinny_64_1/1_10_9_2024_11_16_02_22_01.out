@@ -1,0 +1,80 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3 = 0  2  3  23  4  
+y2 = 1  2  3  12  4  
+y1 = 0  3  01  12  13  23  123  
+y0 = 1  2  3  01  02  03  13  012  123  
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3' = 0  2  3  23  4  
+y2' = 1  2  3  12  4  
+y1' = 0  3  01  12  13  23  123  
+y0' = 0  12  23  013  023  0123  4  
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	1
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	10
+MinCiphers:	9
+MaxCiphers:	40
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	9
+	Total vars:	39428
+	Total clauses:	111364
+	Test == masterkey, spend 3103049 clocks.
+	Not solved within 3600 seconds, Have 4 results.
+num_cipher:	10
+	Total vars:	43688
+	Total clauses:	123624
+	Test == masterkey, spend 4535864 clocks.
+	Not solved within 3600 seconds, Have 1 results.
+num_cipher:	11
+	Total vars:	47948
+	Total clauses:	135884
+	Test == masterkey, spend 4334991 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	12
+	Total vars:	52208
+	Total clauses:	148144
+	Test == masterkey, spend 5371585 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	13
+	Total vars:	56468
+	Total clauses:	160404
+	Test == masterkey, spend 8452477 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	14
+	Total vars:	60728
+	Total clauses:	172664
+	Test == masterkey, spend 7073992 clocks.
+解得主密钥:  1	1001101100011000001011001000001100000101111011100001010100000111
+	Have 1 results, spent 2619789490 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	10
+startRound:	22
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/skinny_64_1 1 10 9 40"
+	User time (seconds): 20630.91
+	System time (seconds): 54.28
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:45:45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 208680
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2844658
+	Voluntary context switches: 2
+	Involuntary context switches: 204731
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 88
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

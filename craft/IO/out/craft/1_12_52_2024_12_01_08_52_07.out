@@ -1,0 +1,88 @@
+sbox:	1100 1010 1101 0011 1110 1011 1111 0111 1000 1001 0001 0101 0000 0010 0100 0110 
+y3 = 01  13  23  013  123  4  
+y2 = 0  3  03  012  013  123  4  
+y1 = 0  2  02  03  23  
+y0 = 1  02  03  012  013  123  
+e_sbox:	0100 1010 1101 0011 1110 1011 1111 0111 1000 1001 0001 0101 0000 0010 0100 0110 
+y3' = 0  1  2  3  02  03  12  012  023  0123  
+y2' = 0  3  03  012  013  123  4  
+y1' = 0  2  02  03  23  
+y0' = 1  02  03  012  013  123  
+Max time :	3600
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	12
+MinCiphers:	52
+MaxCiphers:	60
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	52
+	Total vars:	221708
+	Total clauses:	450316
+	Test == masterkey, spend 114357608 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	53
+	Total vars:	225963
+	Total clauses:	458971
+	Test == masterkey, spend 129622953 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	54
+	Total vars:	230218
+	Total clauses:	467626
+	Test == masterkey, spend 131556234 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	55
+	Total vars:	234473
+	Total clauses:	476281
+	Test == masterkey, spend 130674086 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	56
+	Total vars:	238728
+	Total clauses:	484936
+	Test == masterkey, spend 162845423 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	57
+	Total vars:	242983
+	Total clauses:	493591
+	Test == masterkey, spend 150085929 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	58
+	Total vars:	247238
+	Total clauses:	502246
+	Test == masterkey, spend 154540007 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	59
+	Total vars:	251493
+	Total clauses:	510901
+	Test == masterkey, spend 165566708 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	60
+	Total vars:	255748
+	Total clauses:	519556
+	Test == masterkey, spend 168049618 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/craft 1 12 52 60"
+	User time (seconds): 33717.93
+	System time (seconds): 113.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:23:55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 428532
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15187619
+	Voluntary context switches: 1
+	Involuntary context switches: 82719
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

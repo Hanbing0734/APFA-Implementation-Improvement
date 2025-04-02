@@ -1,0 +1,400 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3 = 0  2  3  23  4  
+y2 = 1  2  3  12  4  
+y1 = 0  3  01  12  13  23  123  
+y0 = 1  2  3  01  02  03  13  012  123  
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3' = 0  2  3  23  4  
+y2' = 1  2  3  12  4  
+y1' = 0  3  01  12  13  23  123  
+y0' = 0  12  23  013  023  0123  4  
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	3
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	7
+MinCiphers:	130
+MaxCiphers:	200
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	130
+	Total vars:	320076
+	Total clauses:	640204
+	Test == masterkey, spend 221536712 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	131
+	Total vars:	322522
+	Total clauses:	645114
+	Test == masterkey, spend 210742062 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	132
+	Total vars:	324968
+	Total clauses:	650024
+	Test == masterkey, spend 232443761 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	133
+	Total vars:	327414
+	Total clauses:	654934
+	Test == masterkey, spend 214480313 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	134
+	Total vars:	329860
+	Total clauses:	659844
+	Test == masterkey, spend 237031694 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	135
+	Total vars:	332306
+	Total clauses:	664754
+	Test == masterkey, spend 212733563 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	136
+	Total vars:	334752
+	Total clauses:	669664
+	Test == masterkey, spend 240799284 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	137
+	Total vars:	337198
+	Total clauses:	674574
+	Test == masterkey, spend 246980805 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	138
+	Total vars:	339644
+	Total clauses:	679484
+	Test == masterkey, spend 248135835 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	139
+	Total vars:	342090
+	Total clauses:	684394
+	Test == masterkey, spend 249638746 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	140
+	Total vars:	344536
+	Total clauses:	689304
+	Test == masterkey, spend 254890590 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	141
+	Total vars:	346982
+	Total clauses:	694214
+	Test == masterkey, spend 292992294 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	142
+	Total vars:	349428
+	Total clauses:	699124
+	Test == masterkey, spend 317802994 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	143
+	Total vars:	351874
+	Total clauses:	704034
+	Test == masterkey, spend 297813113 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	144
+	Total vars:	354320
+	Total clauses:	708944
+	Test == masterkey, spend 286051154 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	145
+	Total vars:	356766
+	Total clauses:	713854
+	Test == masterkey, spend 304940002 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	146
+	Total vars:	359212
+	Total clauses:	718764
+	Test == masterkey, spend 372512709 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	147
+	Total vars:	361658
+	Total clauses:	723674
+	Test == masterkey, spend 337107958 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	148
+	Total vars:	364104
+	Total clauses:	728584
+	Test == masterkey, spend 348056632 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	149
+	Total vars:	366550
+	Total clauses:	733494
+	Test == masterkey, spend 341683401 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	150
+	Total vars:	368996
+	Total clauses:	738404
+	Test == masterkey, spend 343163723 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	151
+	Total vars:	371442
+	Total clauses:	743314
+	Test == masterkey, spend 321067658 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	152
+	Total vars:	373888
+	Total clauses:	748224
+	Test == masterkey, spend 334575392 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	153
+	Total vars:	376334
+	Total clauses:	753134
+	Test == masterkey, spend 326796841 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	154
+	Total vars:	378780
+	Total clauses:	758044
+	Test == masterkey, spend 339040310 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	155
+	Total vars:	381226
+	Total clauses:	762954
+	Test == masterkey, spend 348513865 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	156
+	Total vars:	383672
+	Total clauses:	767864
+	Test == masterkey, spend 340924975 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	157
+	Total vars:	386118
+	Total clauses:	772774
+	Test == masterkey, spend 361117208 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	158
+	Total vars:	388564
+	Total clauses:	777684
+	Test == masterkey, spend 360067899 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	159
+	Total vars:	391010
+	Total clauses:	782594
+	Test == masterkey, spend 367839859 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	160
+	Total vars:	393456
+	Total clauses:	787504
+	Test == masterkey, spend 359563849 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	161
+	Total vars:	395902
+	Total clauses:	792414
+	Test == masterkey, spend 351407310 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	162
+	Total vars:	398348
+	Total clauses:	797324
+	Test == masterkey, spend 370346411 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	163
+	Total vars:	400794
+	Total clauses:	802234
+	Test == masterkey, spend 355388384 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	164
+	Total vars:	403240
+	Total clauses:	807144
+	Test == masterkey, spend 427768423 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	165
+	Total vars:	405686
+	Total clauses:	812054
+	Test == masterkey, spend 392260213 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	166
+	Total vars:	408132
+	Total clauses:	816964
+	Test == masterkey, spend 530189731 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	167
+	Total vars:	410578
+	Total clauses:	821874
+	Test == masterkey, spend 447364498 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	168
+	Total vars:	413024
+	Total clauses:	826784
+	Test == masterkey, spend 401746328 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	169
+	Total vars:	415470
+	Total clauses:	831694
+	Test == masterkey, spend 453892240 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	170
+	Total vars:	417916
+	Total clauses:	836604
+	Test == masterkey, spend 437749170 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	171
+	Total vars:	420362
+	Total clauses:	841514
+	Test == masterkey, spend 449387875 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	172
+	Total vars:	422808
+	Total clauses:	846424
+	Test == masterkey, spend 442365847 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	173
+	Total vars:	425254
+	Total clauses:	851334
+	Test == masterkey, spend 497318144 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	174
+	Total vars:	427700
+	Total clauses:	856244
+	Test == masterkey, spend 490091421 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	175
+	Total vars:	430146
+	Total clauses:	861154
+	Test == masterkey, spend 498196883 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	176
+	Total vars:	432592
+	Total clauses:	866064
+	Test == masterkey, spend 479871036 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	177
+	Total vars:	435038
+	Total clauses:	870974
+	Test == masterkey, spend 503464229 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	178
+	Total vars:	437484
+	Total clauses:	875884
+	Test == masterkey, spend 514321807 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	179
+	Total vars:	439930
+	Total clauses:	880794
+	Test == masterkey, spend 505356150 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	180
+	Total vars:	442376
+	Total clauses:	885704
+	Test == masterkey, spend 515124190 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	181
+	Total vars:	444822
+	Total clauses:	890614
+	Test == masterkey, spend 543057902 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	182
+	Total vars:	447268
+	Total clauses:	895524
+	Test == masterkey, spend 520591146 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	183
+	Total vars:	449714
+	Total clauses:	900434
+	Test == masterkey, spend 560981762 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	184
+	Total vars:	452160
+	Total clauses:	905344
+	Test == masterkey, spend 549213220 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	185
+	Total vars:	454606
+	Total clauses:	910254
+	Test == masterkey, spend 550011193 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	186
+	Total vars:	457052
+	Total clauses:	915164
+	Test == masterkey, spend 562785170 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	187
+	Total vars:	459498
+	Total clauses:	920074
+	Test == masterkey, spend 599728030 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	188
+	Total vars:	461944
+	Total clauses:	924984
+	Test == masterkey, spend 591761106 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	189
+	Total vars:	464390
+	Total clauses:	929894
+	Test == masterkey, spend 628281077 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	190
+	Total vars:	466836
+	Total clauses:	934804
+	Test == masterkey, spend 638755468 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	191
+	Total vars:	469282
+	Total clauses:	939714
+	Test == masterkey, spend 624946622 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	192
+	Total vars:	471728
+	Total clauses:	944624
+	Test == masterkey, spend 610576007 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	193
+	Total vars:	474174
+	Total clauses:	949534
+	Test == masterkey, spend 639337743 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	194
+	Total vars:	476620
+	Total clauses:	954444
+	Test == masterkey, spend 662092756 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	195
+	Total vars:	479066
+	Total clauses:	959354
+	Test == masterkey, spend 632108688 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	196
+	Total vars:	481512
+	Total clauses:	964264
+	Test == masterkey, spend 637980751 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	197
+	Total vars:	483958
+	Total clauses:	969174
+	Test == masterkey, spend 652916951 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	198
+	Total vars:	486404
+	Total clauses:	974084
+	Test == masterkey, spend 635434274 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	199
+	Total vars:	488850
+	Total clauses:	978994
+	Test == masterkey, spend 647472494 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	200
+	Total vars:	491296
+	Total clauses:	983904
+	Test == masterkey, spend 681498227 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/skinny_64_3 1 7 130 200"
+	User time (seconds): 286190.77
+	System time (seconds): 763.11
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 79:43:15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 686164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 75762144
+	Voluntary context switches: 5
+	Involuntary context switches: 649760
+	Swaps: 0
+	File system inputs: 432
+	File system outputs: 1160
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

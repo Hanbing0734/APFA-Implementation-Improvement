@@ -1,0 +1,93 @@
+sbox:	1100 1010 1101 0011 1110 1011 1111 0111 1000 1001 0001 0101 0000 0010 0100 0110 
+y3 = 01  13  23  013  123  4  
+y2 = 0  3  03  012  013  123  4  
+y1 = 0  2  02  03  23  
+y0 = 1  02  03  012  013  123  
+e_sbox:	0100 1010 1101 0011 1110 1011 1111 0111 1000 1001 0001 0101 0000 0010 0100 0110 
+y3' = 0  1  2  3  02  03  12  012  023  0123  
+y2' = 0  3  03  012  013  123  4  
+y1' = 0  2  02  03  23  
+y0' = 1  02  03  012  013  123  
+Max time :	3600
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	8
+MinCiphers:	61
+MaxCiphers:	70
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	61
+	Total vars:	169357
+	Total clauses:	339965
+	Test == masterkey, spend 29331534 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	62
+	Total vars:	172126
+	Total clauses:	345534
+	Test == masterkey, spend 29191526 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	63
+	Total vars:	174895
+	Total clauses:	351103
+	Test == masterkey, spend 40678761 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	64
+	Total vars:	177664
+	Total clauses:	356672
+	Test == masterkey, spend 44233765 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	65
+	Total vars:	180433
+	Total clauses:	362241
+	Test == masterkey, spend 32168222 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	66
+	Total vars:	183202
+	Total clauses:	367810
+	Test == masterkey, spend 41335795 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	67
+	Total vars:	185971
+	Total clauses:	373379
+	Test == masterkey, spend 37593074 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	68
+	Total vars:	188740
+	Total clauses:	378948
+	Test == masterkey, spend 55065734 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	69
+	Total vars:	191509
+	Total clauses:	384517
+	Test == masterkey, spend 43138119 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	70
+	Total vars:	194278
+	Total clauses:	390086
+	Test == masterkey, spend 45937937 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/craft 1 8 61 70"
+	User time (seconds): 36406.74
+	System time (seconds): 103.03
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:08:34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 419092
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17784648
+	Voluntary context switches: 1
+	Involuntary context switches: 77802
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 160
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

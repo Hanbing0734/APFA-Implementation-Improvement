@@ -1,0 +1,45 @@
+sbox:	1100 1010 1101 0011 1110 1011 1111 0111 1000 1001 0001 0101 0000 0010 0100 0110 
+8 = (3'+2'+4')(3+0+6)(3+7+4)(3'+0+5')(3+0'+5)(1'+6+4)(1+6'+4')(2+6'+5')(3'+2+0'+4)(1'+0'+7')(2'+0'+7'+4)(2+1+7)(2'+7'+5)(3'+2+0+6')(0'+5+4)(3+0+7)(1+7+6')(1'+7'+4)(3'+1'+0'+6)(0+7'+6+4')(2'+7+6+4')(2+7'+5'+4')
+e_sbox:	1101 1010 1101 0011 1110 1011 1111 0111 1000 1001 0001 0101 0000 0010 0100 0110 
+8 = (1'+7'+4)(2+6'+4)(1+7+4')(2'+1'+6)(0+6+5')(3+6+5)(0'+7'+6')(3'+2'+4')(3'+0+7'+4')(2+7'+5'+4')(3+2'+0'+4)(2+7+4)(2'+7'+5)(0'+5+4)(0+7+6'+4')(1+7+6')(3+7+5)(3'+7'+5')(3'+1'+0'+6)(0+7+5')(2+6'+5')(1+6'+5'+4')
+Max time :	3600
+SAT_MODE:	2
+	SBOX_MODE:	102
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	10
+MinCiphers:	80
+MaxCiphers:	80
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	80
+	Total vars:	177728
+	Total clauses:	396416
+	Test == masterkey, spend 1464733 clocks.
+解得 mater_key 与 tweakey:	8
+mater_key:	01000011111001111011100111010110000010111010101000101101001010011010010011000111001011010101110011010111111010110000011011000100
+tweakey:	1011000001011101010100010110100101001101001001100011100101101010
+	Have 16 results, spent 108884644 clocks.
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/craft_NS 1 10 80 80"
+	User time (seconds): 110.74
+	System time (seconds): 0.47
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:51.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 178672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70359
+	Voluntary context switches: 1
+	Involuntary context switches: 208
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

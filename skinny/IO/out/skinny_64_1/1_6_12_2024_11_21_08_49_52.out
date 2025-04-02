@@ -1,0 +1,73 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3 = 0  2  3  23  4  
+y2 = 1  2  3  12  4  
+y1 = 0  3  01  12  13  23  123  
+y0 = 1  2  3  01  02  03  13  012  123  
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3' = 0  2  3  23  4  
+y2' = 1  2  3  12  4  
+y1' = 0  3  01  12  13  23  123  
+y0' = 0  12  23  013  023  0123  4  
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	1
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	6
+MinCiphers:	12
+MaxCiphers:	40
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	12
+	Total vars:	26348
+	Total clauses:	51628
+	Test == masterkey, spend 711608 clocks.
+解得主密钥:  16	1101011000011111001100010001110001001111100110011011001111111010
+	Have 52 results, spent 707625747 clocks.
+num_cipher:	13
+	Total vars:	28453
+	Total clauses:	55845
+	Test == masterkey, spend 1029769 clocks.
+解得主密钥:  6	1101011000011111001100010001110001001111100110011011001111111010
+	Have 10 results, spent 346659663 clocks.
+num_cipher:	14
+	Total vars:	30558
+	Total clauses:	60062
+	Test == masterkey, spend 1094815 clocks.
+解得主密钥:  4	1101011000011111001100010001110001001111100110011011001111111010
+	Have 4 results, spent 189213828 clocks.
+num_cipher:	15
+	Total vars:	32663
+	Total clauses:	64279
+	Test == masterkey, spend 1369963 clocks.
+解得主密钥:  1	1101011000011111001100010001110001001111100110011011001111111010
+	Have 1 results, spent 138135813 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	6
+startRound:	26
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/skinny_64_1 1 6 12 40"
+	User time (seconds): 1384.19
+	System time (seconds): 2.12
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 23:06.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 113974
+	Voluntary context switches: 1
+	Involuntary context switches: 2513
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,76 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+y3 = 0  1  3  12  012  013  023  4  
+y2 = 2  3  01  03  13  013  023  4  
+y1 = 1  3  13  23  012  013  023  
+y0 = 0  2  3  12  
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+y3' = 0  1  3  12  012  013  023  4  
+y2' = 2  3  01  03  13  013  023  4  
+y1' = 1  3  13  23  012  013  023  
+y0' = 1  01  02  03  13  23  012  013  023  123  0123  4  
+Max time :	3600
+PRESENT_MODE:	80
+SAT_MODE:	0
+	SBOX_MODE:	101
+	KSR_HAVEERROR:	0
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	7
+MinCiphers:	18
+MaxCiphers:	50
+Threads:	1
+Master_key:	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+---------------------------------------------------------------------------------------------------
+num_cipher:	18
+	Total vars:	42580
+	Total clauses:	93201
+	Test == masterkey, spend 2983959 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	19
+	Total vars:	44916
+	Total clauses:	98321
+	Test == masterkey, spend 2643797 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	20
+	Total vars:	47252
+	Total clauses:	103441
+	Test == masterkey, spend 4330989 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	21
+	Total vars:	49588
+	Total clauses:	108561
+	Test == masterkey, spend 3871453 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	22
+	Total vars:	51924
+	Total clauses:	113681
+	Test == masterkey, spend 4488805 clocks.
+解得主密钥:  1	01000110100101011100110000100011111000010011010100111110110011110011110111010001
+	Have 1 results, spent 1012502309 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	7
+startRound:	25
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present80 1 7 18 50"
+	User time (seconds): 15431.70
+	System time (seconds): 11.54
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:17:24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 145532
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 161938
+	Voluntary context switches: 1
+	Involuntary context switches: 31366
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

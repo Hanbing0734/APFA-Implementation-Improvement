@@ -1,0 +1,95 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3 = 0  2  3  23  4  
+y2 = 1  2  3  12  4  
+y1 = 0  3  01  12  13  23  123  
+y0 = 1  2  3  01  02  03  13  012  123  
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3' = 0  2  3  23  4  
+y2' = 1  2  3  12  4  
+y1' = 0  3  01  12  13  23  123  
+y0' = 0  12  23  013  023  0123  4  
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	1
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	13
+MinCiphers:	9
+MaxCiphers:	40
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	9
+	Total vars:	50777
+	Total clauses:	144313
+	Test == masterkey, spend 9950880 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	10
+	Total vars:	56298
+	Total clauses:	160234
+	Test == masterkey, spend 9363332 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	11
+	Total vars:	61819
+	Total clauses:	176155
+	Test == masterkey, spend 9585586 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	12
+	Total vars:	67340
+	Total clauses:	192076
+	Test == masterkey, spend 11357622 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	13
+	Total vars:	72861
+	Total clauses:	207997
+	Test == masterkey, spend 10152389 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	14
+	Total vars:	78382
+	Total clauses:	223918
+	Test == masterkey, spend 14454801 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	15
+	Total vars:	83903
+	Total clauses:	239839
+	Test == masterkey, spend 18768172 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	16
+	Total vars:	89424
+	Total clauses:	255760
+	Test == masterkey, spend 22828336 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	17
+	Total vars:	94945
+	Total clauses:	271681
+	Test == masterkey, spend 24436727 clocks.
+解得主密钥:  1	1100100101101010011111011000100011110011101010100001010001001001
+	Have 1 results, spent 3342427855 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	13
+startRound:	19
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/skinny_64_1 1 13 9 40"
+	User time (seconds): 32272.42
+	System time (seconds): 91.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:59:30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 271168
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5357829
+	Voluntary context switches: 2
+	Involuntary context switches: 112981
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,129 @@
+sbox:	1100 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+y3 = 0  1  3  12  012  013  023  4  
+y2 = 2  3  01  03  13  013  023  4  
+y1 = 1  3  13  23  012  013  023  
+y0 = 0  2  3  12  
+e_sbox:	1101 0101 0110 1011 1001 0000 1010 1101 0011 1110 1111 1000 0100 0111 0001 0010 
+y3' = 0  1  3  12  012  013  023  4  
+y2' = 2  3  01  03  13  013  023  4  
+y1' = 1  3  13  23  012  013  023  
+y0' = 1  01  02  03  13  23  012  013  023  123  0123  4  
+PRESENT_MODE:	80
+SAT_MODE:	0
+	SBOX_MODE:	101
+	KSR_HAVEERROR:	0
+	ENCYPT_HAVEERROR:	1
+AnalysesRounds:	4
+MinCiphers:	22
+MaxCiphers:	80
+Threads:	1
+Master_key:	00101000100000000110111111001000110110000000001001100111000111000010000100110110
+---------------------------------------------------------------------------------------------------
+num_cipher:	22
+	Total vars:	33071
+	Total clauses:	129953
+	Test == masterkey, spend 733811 clocks.
+	Have 726 results, spent 1756912661 clocks.
+num_cipher:	23
+	Total vars:	34543
+	Total clauses:	135745
+	Test == masterkey, spend 852728 clocks.
+	Have 150 results, spent 481553417 clocks.
+num_cipher:	24
+	Total vars:	36015
+	Total clauses:	141537
+	Test == masterkey, spend 829940 clocks.
+	Have 27 results, spent 134835565 clocks.
+num_cipher:	25
+	Total vars:	37487
+	Total clauses:	147329
+	Test == masterkey, spend 909139 clocks.
+	Have 4 results, spent 49835243 clocks.
+num_cipher:	26
+	Total vars:	38959
+	Total clauses:	153121
+	Test == masterkey, spend 859279 clocks.
+	Have 3 results, spent 23679765 clocks.
+num_cipher:	27
+	Total vars:	40431
+	Total clauses:	158913
+	Test == masterkey, spend 833035 clocks.
+	Have 2 results, spent 19871945 clocks.
+num_cipher:	28
+	Total vars:	41903
+	Total clauses:	164705
+	Test == masterkey, spend 895455 clocks.
+	Have 2 results, spent 15456829 clocks.
+num_cipher:	29
+	Total vars:	43375
+	Total clauses:	170497
+	Test == masterkey, spend 1021628 clocks.
+	Have 2 results, spent 12849480 clocks.
+num_cipher:	30
+	Total vars:	44847
+	Total clauses:	176289
+	Test == masterkey, spend 1083595 clocks.
+	Have 2 results, spent 12984376 clocks.
+num_cipher:	31
+	Total vars:	46319
+	Total clauses:	182081
+	Test == masterkey, spend 1106685 clocks.
+	Have 2 results, spent 9524322 clocks.
+num_cipher:	32
+	Total vars:	47791
+	Total clauses:	187873
+	Test == masterkey, spend 1418538 clocks.
+	Have 2 results, spent 8059986 clocks.
+num_cipher:	33
+	Total vars:	49263
+	Total clauses:	193665
+	Test == masterkey, spend 1226386 clocks.
+	Have 2 results, spent 7377342 clocks.
+num_cipher:	34
+	Total vars:	50735
+	Total clauses:	199457
+	Test == masterkey, spend 1349008 clocks.
+	Have 2 results, spent 6515382 clocks.
+num_cipher:	35
+	Total vars:	52207
+	Total clauses:	205249
+	Test == masterkey, spend 1432223 clocks.
+	Have 2 results, spent 7238172 clocks.
+num_cipher:	36
+	Total vars:	53679
+	Total clauses:	211041
+	Test == masterkey, spend 1464226 clocks.
+	Have 2 results, spent 6760921 clocks.
+num_cipher:	37
+	Total vars:	55151
+	Total clauses:	216833
+	Test == masterkey, spend 1994771 clocks.
+	Have 1 results, spent 5637668 clocks.
+---------------------------------------------------------------------------------------------------
+求得唯一解！
+numAnalysesRounds:	4
+startRound:	28
+---------------------------------------------------------------------------------------------------
+	Command being timed: "./bin/present80 1 4 22 80"
+	User time (seconds): 2579.82
+	System time (seconds): 1.62
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 43:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 99904
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 115671
+	Voluntary context switches: 1
+	Involuntary context switches: 4997
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 136
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

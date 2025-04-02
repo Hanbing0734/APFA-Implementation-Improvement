@@ -1,0 +1,91 @@
+sbox:	1100 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3 = 0  2  3  23  4  
+y2 = 1  2  3  12  4  
+y1 = 0  3  01  12  13  23  123  
+y0 = 1  2  3  01  02  03  13  012  123  
+e_sbox:	1101 0110 1001 0000 0001 1010 0010 1011 0011 1000 0101 1101 0100 1110 0111 1111 
+y3' = 0  2  3  23  4  
+y2' = 1  2  3  12  4  
+y1' = 0  3  01  12  13  23  123  
+y0' = 0  12  23  013  023  0123  4  
+Max time :	3600
+SKINNY_MODE:	64
+TWEAKEY_MODE:	3
+SAT_MODE:	1
+	SBOX_MODE:	101
+	ENCYPT_HAVEERROR:	301
+AnalysesRounds:	8
+MinCiphers:	150
+MaxCiphers:	200
+Threads:	1
+---------------------------------------------------------------------------------------------------
+num_cipher:	150
+	Total vars:	515996
+	Total clauses:	1475804
+	Test == masterkey, spend 524735514 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	151
+	Total vars:	519422
+	Total clauses:	1485630
+	Test == masterkey, spend 553135379 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	152
+	Total vars:	522848
+	Total clauses:	1495456
+	Test == masterkey, spend 572373077 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	153
+	Total vars:	526274
+	Total clauses:	1505282
+	Test == masterkey, spend 579580052 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	154
+	Total vars:	529700
+	Total clauses:	1515108
+	Test == masterkey, spend 574871626 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	155
+	Total vars:	533126
+	Total clauses:	1524934
+	Test == masterkey, spend 581246724 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	156
+	Total vars:	536552
+	Total clauses:	1534760
+	Test == masterkey, spend 561022137 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	157
+	Total vars:	539978
+	Total clauses:	1544586
+	Test == masterkey, spend 589465802 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	158
+	Total vars:	543404
+	Total clauses:	1554412
+	Test == masterkey, spend 608146960 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	159
+	Total vars:	546830
+	Total clauses:	1564238
+	Test == masterkey, spend 602955900 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	160
+	Total vars:	550256
+	Total clauses:	1574064
+	Test == masterkey, spend 587222505 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	161
+	Total vars:	553682
+	Total clauses:	1583890
+	Test == masterkey, spend 605665023 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	162
+	Total vars:	557108
+	Total clauses:	1593716
+	Test == masterkey, spend 669555092 clocks.
+	Not solved within 3600 seconds, Have 0 results.
+num_cipher:	163
+	Total vars:	560534
+	Total clauses:	1603542
+
+    end
